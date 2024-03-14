@@ -1,5 +1,7 @@
 # Obisidan Nordic
-> A theme for obsidian that uses https://www.nordtheme.com/ styles
+> A theme for obsidian inspired by https://www.nordtheme.com/
+> with a pinch of person preference
+> **Font:** https://fonts.google.com/specimen/Rubik
 
 ![](assets/obsidian-nordic.png)
 ---
