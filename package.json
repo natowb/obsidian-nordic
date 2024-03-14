@@ -1,11 +1,17 @@
 {
-    "name": "obsidian-nordic",
+	"name": "obsidian-nordic",
 	"version": "1.0.1",
 	"scripts": {
+		"commit": "commit",
 		"build": "node ./tools/build.mjs",
-		"version": "node ./tools/version-bump.mjs && git add manifest.json versions.json"
+		"version": "node ./tools/version-bump.mjs && git add manifest.json versions.json",
+		"prepare": "husky"
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^19.1.0",
+		"@commitlint/config-conventional": "^19.1.0",
+		"@commitlint/prompt-cli": "^19.1.0",
+		"husky": "^9.0.11",
 		"node-sass": "^9.0.0"
 	}
 }
