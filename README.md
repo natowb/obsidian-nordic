@@ -1,6 +1,8 @@
 # Obisidan Nordic
 > A theme for obsidian inspired by https://www.nordtheme.com/ with a pinch of person preference
 
+[![Release](https://github.com/natowb/obsidian-nordic/actions/workflows/release.yml/badge.svg)](https://github.com/natowb/obsidian-nordic/actions/workflows/release.yml)
+---
 
 
 
