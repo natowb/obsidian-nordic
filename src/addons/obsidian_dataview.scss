@@ -1,0 +1,35 @@
+.theme-dark {
+	--dataview-key: var(--text-faint);
+	--dataview-key-background: rgba(var(--frost2_raw), 0.3);
+	--dataview-value: var(--text-faint);
+	--dataview-value-background: rgba(var(--red_raw), 0.3);
+}
+
+
+.theme-light {
+    --dataview-key: var(--text-faint);
+	--dataview-key-background: rgba(var(--frost2_raw), 0.3);
+	--dataview-value: var(--text-faint);
+	--dataview-value-background: rgba(var(--red_raw), 0.3);
+}
+
+
+.dataview.inline-field-key {
+	border-top-left-radius: var(--radius-s);
+	border-bottom-left-radius: var(--radius-s);
+	padding-left: 4px;
+	font-family: var(--font-monospace);
+	font-size: var(--font-smaller);
+	color: var(--dataview-key) !important;
+	background-color: var(--dataview-key-background) !important;
+}
+
+.dataview.inline-field-value {
+	border-top-right-radius: var(--radius-s);
+	border-bottom-right-radius: var(--radius-s);
+	padding-right: 4px;
+	font-family: var(--font-monospace);
+	font-size: var(--font-smaller);
+	color: var(--dataview-value) !important;
+	background-color: var(--dataview-value-background) !important;
+}

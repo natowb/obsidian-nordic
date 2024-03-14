@@ -1,0 +1,36 @@
+:root {
+	--dark0_raw: 46, 52, 64;
+	--dark0: rgb(var(--dark0_raw));
+	--dark1_raw: 59, 66, 82;
+	--dark1: rgb(var(--dark1_raw));
+	--dark2_raw: 67, 76, 94;
+	--dark2: rgb(var(--dark2_raw));
+	--dark3_raw: 76, 86, 106;
+	--dark3: rgb(var(--dark3_raw));
+	--light0_raw: 216, 222, 233;
+	--light0: rgb(var(--light0_raw));
+	--light1_raw: 229, 233, 240;
+	--light1: rgb(var(--light1_raw));
+	--light2_raw: 236, 239, 244;
+	--light2: rgb(var(--light2_raw));
+	--light3_raw: 255, 255, 255;
+	--light3: rgb(var(--light3_raw));
+	--frost0_raw: 143, 188, 187;
+	--frost0: rgb(var(--frost0_raw));
+	--frost1_raw: 136, 192, 208;
+	--frost1: rgb(var(--frost1_raw));
+	--frost2_raw: 129, 161, 193;
+	--frost2: rgb(var(--frost2_raw));
+	--frost3_raw: 94, 129, 172;
+	--frost3: rgb(var(--frost3_raw));
+	--red_raw: 191, 97, 106;
+	--red: rgb(var(--red_raw));
+	--orange_raw: 208, 135, 112;
+	--orange: rgb(var(--orange_raw));
+	--yellow_raw: 235, 203, 139;
+	--yellow: rgb(var(--yellow_raw));
+	--green_raw: 163, 190, 140;
+	--green: rgb(var(--green_raw));
+	--purple_raw: 180, 142, 173;
+	--purple: rgb(var(--purple_raw));
+}

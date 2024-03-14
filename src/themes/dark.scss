@@ -1,0 +1,91 @@
+.theme-dark {
+
+	--accent-h: 210;
+	--accent-s: 34%;
+	--accent-l: 63%;
+
+	--interactive-normal: var(--dark1);
+	--interactive-hover: var(--dark2);
+	--cursor-line-background: var(--dark1);
+
+
+	--color-red-rgb: var(--red_raw);
+	--color-red: var(--red);
+	--color-purple-rgb: var(--purple_raw);
+	--color-purple: var(--purple);
+	--color-green-rgb: var(--green_raw);
+	--color-green: var(--green);
+	--color-cyan-rgb: var(--frost1_raw);
+	--color-cyan: var(--frost1);
+	--color-blue-rgb: var(--frost3_raw);
+	--color-blue: var(--frost3);
+	--color-yellow-rgb: var(--yellow_raw);
+	--color-yellow: var(--yellow);
+	--color-orange-rgb: var(--orange_raw);
+	--color-orange: var(--orange);
+
+	--background-primary: var(--dark0);
+	--background-primary-alt: var(--dark0);
+	--background-secondary: var(--dark1);
+	--background-secondary-alt: var(--dark2);
+	--background-modifier-border: var(--dark2);
+	--background-modifier-form-field: var(--dark1);
+	--background-modifier-border-hover: var(--dark1);
+	--background-modifier-border-focus: var(--dark3);
+
+	--prompt-border-color: var(--dark3);
+
+	--text-normal: var(--light2);
+	--text-faint: var(--light0);
+	--text-muted: var(--light1);
+
+
+
+	--tag-color: var(--frost0);
+	--tag-background: var(--dark2);
+	--tag-background-hover: var(--dark1);
+
+
+	--icon-color-focused: var(--frost2);
+	--tab-text-color-focused-active-current: var(--frost2);
+
+
+	--blockquote-border-color: var(--dark3);
+
+	--text-highlight-bg: var(--frost1);
+	--text-highlight-fg: var(--dark0);
+
+
+	--text-accent: var(--frost1);
+	--text-accent-hover: var(--frost2);
+
+
+	--checkbox-color: var(--frost0);
+	--checkbox-color-hover: var(--frost0);
+	--checkbox-border-color: var(--frost0);
+	--checkbox-border-color-hover: var(--frost0);
+	--checklist-done-color: rgba(var(--light2_raw), 0.5);
+
+	--table-header-background: hsl(220, 16%, 16%);
+	--table-header-background-hover: var(--dark3);
+	--table-row-even-background: hsl(220, 16%, 20%);
+	--table-row-odd-background: hsl(220, 16%, 24%);
+	--table-row-background-hover: var(--dark3);
+
+
+
+	--code-normal: var(--frost1);
+	--code-background: var(--dark1);
+
+
+	--icon-color-hover: var(--frost1);
+	--nav-item-color-hover: var(--frost1);
+	--nav-item-color-active: var(--frost1);
+	--nav-file-tag: rgba(var(--frost2), 0.7);
+
+	--graph-line: var(--frost3);
+	--graph-node: var(--light2);
+
+	--titlebar-text-color-focused: var(--light1);
+
+}
