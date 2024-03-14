@@ -1,6 +1,6 @@
 {
     "name": "obsidian-nordic",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"scripts": {
 		"build": "node ./tools/build.mjs",
 		"version": "node ./tools/version-bump.mjs && git add manifest.json versions.json"
