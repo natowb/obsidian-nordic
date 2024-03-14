@@ -14,6 +14,6 @@
 
 
 **Credits**
-- **[obsidian_nord]("https://github.com/insanum/obsidian_nord.git"):** for the initial inspiration: 
+- [obsidian nord](https://github.com/insanum/obsidian_nord): for the initial inspiration: 
 - **Rubik Font:** https://fonts.google.com/specimen/Rubik
-- **[NordTheme]("https://www.nordtheme.com/"):** for the amazing palette 
+- [Nord Theme](https://www.nordtheme.com/): for the amazing palette 
