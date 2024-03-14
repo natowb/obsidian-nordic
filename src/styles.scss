@@ -5,10 +5,10 @@
 @import 'addons/liamcain_calendar.scss';
 @import 'addons/obsidian_dataview.scss';
 
-@import "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap";
+@import 'font.scss';
 
 :root {
-	--default-font: 'Rubik';
+	--default-font: 'rubik';
 	--h1-color: var(--frost2);
 	--h2-color: var(--frost2);
 	--h3-color: var(--frost2);
