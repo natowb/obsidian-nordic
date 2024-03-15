@@ -28,6 +28,8 @@ jobs:
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
                 commit_message: 'chore(release): build theme.css'
+                file_pattern: '*.css'
+                push_options: '--force'
 
 
     print:
