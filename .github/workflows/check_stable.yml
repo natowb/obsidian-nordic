@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      - stable
+
+
+jobs:
+  print:
+    name: Testing Workflow
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo The PR was merged
