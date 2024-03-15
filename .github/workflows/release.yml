@@ -28,14 +28,17 @@ jobs:
 
             - name: Auto Commit
               uses: stefanzweifel/git-auto-commit-action@v5
-              
               with:
                 commit_message: 'chore(release): build theme.css'
                 file_pattern: '*.css'
                 push_options: '--force'
+                commit_user_name:  Release Bot # defaults to "github-actions[bot]"
+                commit_user_email: natowb@users.noreply.github.com
             
             - name: Bump Version
               run: |
+                git config --global user.name "Release Bot"
+                git config --global user.email natowb@users.noreply.github.com
                 pnpm version patch
                 git push --tags
 
