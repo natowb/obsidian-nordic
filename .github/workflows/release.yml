@@ -36,8 +36,8 @@ jobs:
             
             - name: Bump Version
               run: |
-              pnpm version
-              git push --tags
+                pnpm version
+                git push --tags
 
             - name: Get New Version
               id: package-version
@@ -47,10 +47,10 @@ jobs:
               run: echo ${{ steps.package-version.outputs.current-version}}
 
             - name: bundle folder
-            - run: |
-              mkdir Nordic
-              cp manifest.json theme.css Nordic/
-              zip -r Nordic.zip Nordic/
+              run: |
+                mkdir Nordic
+                cp manifest.json theme.css Nordic/
+                zip -r Nordic.zip Nordic/
 
 
             - uses: ncipollo/release-action@v1
