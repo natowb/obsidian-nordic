@@ -4,7 +4,7 @@
 	"scripts": {
 		"commit": "commit",
 		"build": "node ./tools/build.mjs",
-		"version": "node ./tools/version-bump.mjs && git add package.json manifest.json versions.json",
+		"version": "node ./tools/version-bump.mjs && git add package.json manifest.json versions.json package.json",
 		"prepare": "husky"
 	},
 	"devDependencies": {
