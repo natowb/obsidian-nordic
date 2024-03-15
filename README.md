@@ -1,21 +1,20 @@
-# Obisidan Nordic
+# Nordic for Obsidian
 > A theme for obsidian inspired by https://www.nordtheme.com/ with a pinch of person preference
 
-[![Release](https://github.com/natowb/obsidian-nordic/actions/workflows/release.yml/badge.svg)](https://github.com/natowb/obsidian-nordic/actions/workflows/release.yml)
+![](assets/obsidian-nordic-full.png)
+
 ---
 
 
 
-![](assets/obsidian-nordic.png)
----
+## Plugins
+> This is a list of all the plugins the theme currently explicitly supports
 
-# Preview
-![](assets/dark-theme.png)
-![](assets/light-theme.png)
-
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 
 
-**Credits**
-- [obsidian nord](https://github.com/insanum/obsidian_nord): for the initial inspiration: 
-- **Rubik Font:** https://fonts.google.com/specimen/Rubik
+## Credits
+- [Rubik Font](https://fonts.google.com/specimen/Rubik): for the great font
 - [Nord Theme](https://www.nordtheme.com/): for the amazing palette 
+- [Obsidian Nord](https://github.com/insanum/obsidian_nord): for the initial inspiration
