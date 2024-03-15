@@ -10,7 +10,6 @@
 ## Plugins
 > This is a list of all the plugins the theme currently explicitly supports
 
-- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 
 
