@@ -278,3 +278,9 @@ pre[class*="language-"] {
 .calendar .day:hover {
   color: var(--calendar-hover) !important;
   background-color: var(--calendar-background-hover) !important; }
+
+.theme-dark {
+  --a-value: #FFFFFF; }
+
+.theme-light {
+  --a-value: #FFFFFF; }
