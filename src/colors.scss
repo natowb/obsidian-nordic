@@ -1,36 +1,124 @@
-:root {
-	--dark0_raw: 46, 52, 64;
-	--dark0: rgb(var(--dark0_raw));
-	--dark1_raw: 59, 66, 82;
-	--dark1: rgb(var(--dark1_raw));
-	--dark2_raw: 67, 76, 94;
-	--dark2: rgb(var(--dark2_raw));
-	--dark3_raw: 76, 86, 106;
-	--dark3: rgb(var(--dark3_raw));
-	--light0_raw: 216, 222, 233;
-	--light0: rgb(var(--light0_raw));
-	--light1_raw: 229, 233, 240;
-	--light1: rgb(var(--light1_raw));
-	--light2_raw: 236, 239, 244;
-	--light2: rgb(var(--light2_raw));
-	--light3_raw: 255, 255, 255;
-	--light3: rgb(var(--light3_raw));
-	--frost0_raw: 143, 188, 187;
-	--frost0: rgb(var(--frost0_raw));
-	--frost1_raw: 136, 192, 208;
-	--frost1: rgb(var(--frost1_raw));
-	--frost2_raw: 129, 161, 193;
-	--frost2: rgb(var(--frost2_raw));
-	--frost3_raw: 94, 129, 172;
-	--frost3: rgb(var(--frost3_raw));
-	--red_raw: 191, 97, 106;
-	--red: rgb(var(--red_raw));
-	--orange_raw: 208, 135, 112;
-	--orange: rgb(var(--orange_raw));
-	--yellow_raw: 235, 203, 139;
-	--yellow: rgb(var(--yellow_raw));
-	--green_raw: 163, 190, 140;
-	--green: rgb(var(--green_raw));
-	--purple_raw: 180, 142, 173;
-	--purple: rgb(var(--purple_raw));
+@function toRGB($color) {
+	@return unquote("#{red($color)} #{green($color)} #{blue($color)}");
 }
+
+@mixin includeVariables($variable, $color) {
+	--#{$variable}-raw: #{toRGB($color)};
+	--#{$variable}: #{$color};
+}
+
+$colors: (
+	"dark0": #2e3440,
+	"dark1": #3b4252,
+	"dark2": #434c5e,
+	"dark3": #4c566a,
+	"light0": #d8dee9,
+	"light1": #e5e9f0,
+	"light2": #eceff4,
+	"light3": #ffffff,
+	"frost0": #8fbcbb,
+	"frost1": #88c0d0,
+	"frost2": #81a1c1,
+	"frost3": #5e81ac,
+);
+
+
+
+@function nord($name) {
+	@return map-get($colors, "#{$name}");
+}
+
+:root {
+	@each $name, $color in $colors {
+		@include includeVariables("#{$name}", $color);
+	}
+}
+
+:root {
+};
+
+	// --color-cyan: #00bfbc;
+	// --color-blue: #086ddd;
+	// --color-pink: #d53984;
+
+	// --color-cyan-rgb: 0, 191, 188;
+	// --color-blue-rgb: 8, 109, 221;
+	// --color-pink-rgb: 213, 57, 132;
+
+	// --color-red-rgb: 251, 70, 76;
+	// --color-orange-rgb: 233, 151, 63;
+	// --color-yellow-rgb: 224, 222, 113;
+	// --color-green-rgb: 68, 207, 110;
+	// --color-cyan-rgb: 83, 223, 221;
+	// --color-blue-rgb: 2, 122, 255;
+	// --color-purple-rgb: 168, 130, 255;
+	// --color-pink-rgb: 250, 153, 205;
+
+
+
+
+.theme-dark, .theme-light {
+	--accent-h: 179;
+	--accent-s: 25%;
+	--accent-l: 65%;
+
+
+	$purple: #b48ead;
+	$yellow: #ebcb8b;
+	$green: #a3be8c;
+	$orange: #d08770;
+	$red: #bf616a;
+  
+	--color-red: #{$red};
+	--color-red-rgb: #{toRGB($red)};
+	--color-orange: #{$orange};
+	--color-orange-rgb: #{toRGB($orange)};
+	--color-yellow: #{$yellow};
+	--color-yellow-rgb: #{toRGB($yellow)};
+	--color-green: #{$green};
+	--color-green-rgb: #{toRGB($green)};
+	--color-purple: #{$purple};
+	--color-purple-rgb: #{toRGB($purple)};
+}
+
+:root {
+	--h1-color: var(--frost2);
+	--h2-color: var(--frost2);
+	--h3-color: var(--frost2);
+	--h4-color: var(--frost2);
+	--h5-color: var(--frost2);
+	--h6-color: var(--frost2);
+	--inline-title-color: var(--frost2);
+	--bold-color: var(--text-normal);
+	--italic-color: var(--text-normal);
+}
+
+// .theme-light {
+//   --color-base-00: #ffffff;
+//   --color-base-05: #fcfcfc;
+//   --color-base-10: #fafafa;
+//   --color-base-20: #f6f6f6;
+//   --color-base-25: #e3e3e3;
+//   --color-base-30: #e0e0e0;
+//   --color-base-35: #d4d4d4;
+//   --color-base-40: #bdbdbd;
+//   --color-base-50: #ababab;
+//   --color-base-60: #707070;
+//   --color-base-70: #5a5a5a;
+//   --color-base-10: #222222;
+// }
+
+// .theme-dark {
+//   --color-base-00: #1e1e1e;
+//   --color-base-05: #212121;
+//   --color-base-10: #242424;
+//   --color-base-20: #262626;
+//   --color-base-25: #2a2a2a;
+//   --color-base-30: #363636;
+//   --color-base-35: #3f3f3f;
+//   --color-base-40: #555555;
+//   --color-base-50: #666666;
+//   --color-base-60: #999999;
+//   --color-base-70: #bababa;
+//   --color-base-10: #dadada;
+// }

@@ -1,0 +1,26 @@
+.markdown-rendered tbody tr:nth-child(even) {
+	background-color: var(--table-row-even-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd) {
+	background-color: var(--table-row-odd-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even):hover,
+.markdown-rendered tbody tr:nth-child(odd):hover {
+	background-color: var(--table-row-background-hover) !important;
+}
+
+.markdown-rendered mark {
+	background-color: var(--text-highlight-bg);
+	color: var(--text-highlight-fg);
+}
+
+.markdown-rendered mark a {
+	font-weight: 600;
+}
+
+.markdown-embed-title {
+	color: var(--frost2);
+	font-weight: 600 !important;
+}
