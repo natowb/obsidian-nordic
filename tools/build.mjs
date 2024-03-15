@@ -2,7 +2,7 @@ import { render } from 'node-sass';
 import { writeFile } from 'fs';
 
 // Input and output files
-const inputFile = './src/styles.scss';
+const inputFile = './src/main.scss';
 const outputFile = './theme.css';
 
 // Compile SCSS/SASS file
