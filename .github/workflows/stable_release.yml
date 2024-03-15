@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out Git repository
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
 
             - uses: pnpm/action-setup@v3
               with:
@@ -21,9 +21,14 @@ jobs:
             - name: build theme
               run: pnpm run build
 
-            - uses: actions/checkout@v3
+            - name: config name
+              run: |
+                git config --global user.name 'Autorelease'
+                git config --global user.email 'natowb@users.noreply.github.com'
+
             - name: bump version
               run: pnpm version patch
+
             - name: Commit report
               run: |
                 git config --global user.name 'Nato'
