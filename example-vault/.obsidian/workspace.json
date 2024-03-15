@@ -4,32 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fc42fef1d49706b0",
+        "id": "05e84c2327d11097",
         "type": "tabs",
         "children": [
           {
-            "id": "554b551be0be45c2",
+            "id": "e4a72d27ced7a4ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Examples/Markdown Examples.md",
+                "file": "2024-03-30.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "37e5d849c5291173",
+            "id": "f9175a03288e35a3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_res/helmet.jpg"
+                "file": "Basic Statblock.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Examples/Markdown Examples.md",
+                "file": "Basic Statblock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Examples/Markdown Examples.md",
+                "file": "Basic Statblock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,34 +138,87 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Examples/Markdown Examples.md"
+                "file": "Basic Statblock.md"
+              }
+            }
+          },
+          {
+            "id": "a2c6f0c8cb9eac22",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b4320a50b9ee295d",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_486a68884939",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 836
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                }
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 487.5
+    "width": 652.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-5e-statblocks:Open Creature Pane": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "554b551be0be45c2",
+  "active": "f9175a03288e35a3",
   "lastOpenFiles": [
-    "Examples/Tables.md",
+    "2024-03-30.md",
+    "Basic Statblock.md",
+    "2024-03-16.md",
+    "Examples/hello.md",
+    "Examples/Canvas Example.canvas",
+    "games/Game1.md",
+    "games/Game1 copy 17.md",
+    "games/Game1 copy 16.md",
+    "games/Game1 copy 15.md",
+    "games/Game1 copy 14.md",
+    "games/Game1 copy 13.md",
+    "games/Game1 copy 12.md",
+    "games/Game1 copy 11.md",
+    "games/Game1 copy 10.md",
+    "games/Game1 copy 9.md",
+    "games/Game1 copy 8.md",
+    "games/Game1 copy 7.md",
+    "games/Game1 copy 6.md",
+    "games/Game1 copy 5.md",
+    "games/Game1 copy 4.md",
+    "games/Game1 copy 3.md",
+    "games/Game1 copy 2.md",
+    "games/Game1 copy.md",
+    "games",
     "Examples/Markdown Examples.md",
+    "Examples/Tables.md",
     "_res/helmet.jpg",
     "_res",
-    "Examples/Canvas Example.canvas",
     "Nordic Examples.md",
     "Examples"
   ]
