@@ -19,22 +19,22 @@ jobs:
               run: pnpm install
       
             - name: build theme
-              run: pnpm run build
+              run: | 
+                pnpm run build
+                git add theme.css
 
-            - name: config name
-              run: |
-                git config --global user.name 'Autorelease'
-                git config --global user.email 'natowb@users.noreply.github.com'
-
-            - name: bump version
-              run: pnpm version patch
-
-            - name: Commit report
+            - name: Commit build
               run: |
                 git config --global user.name 'Nato'
                 git config --global user.email 'natowb@users.noreply.github.com'
-                git commit -am "Automated version push"
+                git add theme.css
+                git commit -am "build"
                 git push
+
+            - name: bump version
+              run: | 
+                pnpm config set tag-version-prefix ''
+                pnpm version patch
                 git push --tags
 
     print:
