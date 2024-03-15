@@ -15,3 +15,5 @@ node_modules
 .DS_Store
 
 ./Nordic
+**/themes/Nordic/manifest.json
+**/themes/Nordic/theme.css
