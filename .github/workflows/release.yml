@@ -35,7 +35,7 @@ jobs:
                 push_options: '--force'
             
             - name: Bump Version
-             run: |
+              run: |
               pnpm version
               git push --tags
 
