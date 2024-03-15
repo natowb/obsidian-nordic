@@ -1,8 +1,10 @@
 name: Release
 
-# Configure Manual Trigger
 on:
-    workflow_dispatch
+  push:
+    branches:
+      - stable
+
 
 jobs:
     release:
