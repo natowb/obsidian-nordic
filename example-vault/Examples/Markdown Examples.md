@@ -22,6 +22,21 @@ Cheat Sheet for Obsidian Markdown Syntax, a Reference Table
 |Highlight|==|Highlight ==this.==|
 
 
+# Ted Talks are dangerously eloquent
+
+Or, as [[Hamlet]] would say, “full of sound and fury, signifying nothing”.
+
+A perfect example is the talk called “How to sound smart in your TEDx Talk”. [^2]
+
+Eloquent talks trick us into thinking we learn more than we actually do.
+
+They make us feel good without really improving us. [^1]
+
+[^1]: [[Human Rites]] p80
+
+[^2]: https://www.youtube.com/watch?v=8S0FDjFBj8o
+
+
 ## Markdown Headings
 
 There are six possible headings you can use in Obsidian, they are numbered from 1 (biggest) to 6 (smallest). The special character for creating headings is the hash symbol #. To make an H1 type # with a space after it, two hashes for an H2, etc.
@@ -338,19 +353,3 @@ To add a horizontal line or separator in your note use three dashes, remember to
 ```
 --- 
 ```
-
-### Queries
-
-Queries will embed a list of results into your note, the query below will return any notes with the tag #Bible for example. You can add more than one parameter, as shown further down.
-
-````
-```query
-#Bible
-```
-````
-
-````
-```query
-#Bible + New Testament
-```
-````

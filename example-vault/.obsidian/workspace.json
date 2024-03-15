@@ -6,7 +6,6 @@
       {
         "id": "fc42fef1d49706b0",
         "type": "tabs",
-        "dimension": 73.40255591054313,
         "children": [
           {
             "id": "554b551be0be45c2",
@@ -28,21 +27,6 @@
               "state": {
                 "file": "_res/helmet.jpg"
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d147cab96a867986",
-        "type": "tabs",
-        "dimension": 26.597444089456868,
-        "children": [
-          {
-            "id": "2f7a0fc1afb799db",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -155,12 +139,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 487.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +159,8 @@
   "active": "554b551be0be45c2",
   "lastOpenFiles": [
     "Examples/Tables.md",
-    "_res/helmet.jpg",
     "Examples/Markdown Examples.md",
+    "_res/helmet.jpg",
     "_res",
     "Examples/Canvas Example.canvas",
     "Nordic Examples.md",
