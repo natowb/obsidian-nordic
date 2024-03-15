@@ -1,0 +1,16 @@
+.theme-dark {
+	--code-normal: var(--frost1);
+	--code-background: var(--dark1);
+}
+
+.theme-light {
+	--code-normal: var(--frost3);
+	--code-background: var(--light1);
+    --code-radius: var(--radius-s);
+    --code-size: --font-smaller;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+	line-height: var(--line-height-tight) !important;
+}

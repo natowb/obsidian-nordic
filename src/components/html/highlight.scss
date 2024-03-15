@@ -1,0 +1,14 @@
+.theme-dark {
+
+	--text-highlight-bg: var(--frost3);
+}
+
+.theme-light {
+	--text-highlight-bg: var(--frost1);
+}
+
+
+
+.markdown-rendered mark a {
+	font-weight: 600;
+}
