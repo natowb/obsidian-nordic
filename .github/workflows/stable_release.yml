@@ -2,7 +2,7 @@ name: WIP Release Workflow
 
 # Configure Manual Trigger
 on:
-    workflow_dispatch:
+    workflow_dispatch
 
 jobs:
     build:
