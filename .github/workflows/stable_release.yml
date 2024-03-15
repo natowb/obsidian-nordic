@@ -35,6 +35,8 @@ jobs:
     print:
       runs-on: ubuntu-latest
       steps:
+        - name: Check out Git repository
+          uses: actions/checkout@v2
 
         - name: get-npm-version
           id: package-version
