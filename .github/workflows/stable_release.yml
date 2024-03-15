@@ -11,6 +11,10 @@ jobs:
             - name: Check out Git repository
               uses: actions/checkout@v2
 
+            - uses: pnpm/action-setup@v3
+              with:
+                version: 8
+
             - name: Install Node.js dependencies
               run: pnpm install
       
