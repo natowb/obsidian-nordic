@@ -34,7 +34,7 @@ jobs:
                 file_pattern: '*.css'
                 push_options: '--force'
             
-            -name: Bump Version
+            - name: Bump Version
              run: |
               pnpm version
               git push --tags
