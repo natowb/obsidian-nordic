@@ -1,5 +1,5 @@
 @function toRGB($color) {
-	@return unquote("#{red($color)} #{green($color)} #{blue($color)}");
+	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
 }
 
 @mixin includeVariables($variable, $color) {

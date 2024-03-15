@@ -1,27 +1,27 @@
 :root {
-  --dark0-raw: 46 52 64;
+  --dark0-raw: 46, 52, 64;
   --dark0: #2e3440;
-  --dark1-raw: 59 66 82;
+  --dark1-raw: 59, 66, 82;
   --dark1: #3b4252;
-  --dark2-raw: 67 76 94;
+  --dark2-raw: 67, 76, 94;
   --dark2: #434c5e;
-  --dark3-raw: 76 86 106;
+  --dark3-raw: 76, 86, 106;
   --dark3: #4c566a;
-  --light0-raw: 216 222 233;
+  --light0-raw: 216, 222, 233;
   --light0: #d8dee9;
-  --light1-raw: 229 233 240;
+  --light1-raw: 229, 233, 240;
   --light1: #e5e9f0;
-  --light2-raw: 236 239 244;
+  --light2-raw: 236, 239, 244;
   --light2: #eceff4;
-  --light3-raw: 255 255 255;
+  --light3-raw: 255, 255, 255;
   --light3: #ffffff;
-  --frost0-raw: 143 188 187;
+  --frost0-raw: 143, 188, 187;
   --frost0: #8fbcbb;
-  --frost1-raw: 136 192 208;
+  --frost1-raw: 136, 192, 208;
   --frost1: #88c0d0;
-  --frost2-raw: 129 161 193;
+  --frost2-raw: 129, 161, 193;
   --frost2: #81a1c1;
-  --frost3-raw: 94 129 172;
+  --frost3-raw: 94, 129, 172;
   --frost3: #5e81ac; }
 
 .theme-dark, .theme-light {
@@ -29,15 +29,15 @@
   --accent-s: 25%;
   --accent-l: 65%;
   --color-red: #bf616a;
-  --color-red-rgb: 191 97 106;
+  --color-red-rgb: 191, 97, 106;
   --color-orange: #d08770;
-  --color-orange-rgb: 208 135 112;
+  --color-orange-rgb: 208, 135, 112;
   --color-yellow: #ebcb8b;
-  --color-yellow-rgb: 235 203 139;
+  --color-yellow-rgb: 235, 203, 139;
   --color-green: #a3be8c;
-  --color-green-rgb: 163 190 140;
+  --color-green-rgb: 163, 190, 140;
   --color-purple: #b48ead;
-  --color-purple-rgb: 180 142 173; }
+  --color-purple-rgb: 180, 142, 173; }
 
 :root {
   --h1-color: var(--frost2);
@@ -98,9 +98,9 @@
   --checkbox-border-color: var(--frost0);
   --checkbox-border-color-hover: var(--frost0);
   --checklist-done-color: rgba(var(--light2-raw), 0.5);
-  --table-header-background: rgba(var(--dark2-raw), 0.8);
+  --table-header-background: rgba(var(--dark1-raw), 1);
   --table-header-background-hover: var(--dark1);
-  --table-row-even-background: rgba(var(--dark2-raw), 0.6);
+  --table-row-even-background: rgba(var(--dark1-raw), 0.6);
   --table-row-odd-background: rgba(var(--dark2-raw), 0.8);
   --table-row-background-hover: var(--dark2);
   --code-normal: var(--frost1);
