@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-nordic",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"scripts": {
 		"commit": "commit",
 		"build": "node ./tools/build.mjs",
