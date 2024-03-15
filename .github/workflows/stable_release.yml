@@ -11,11 +11,34 @@ jobs:
             - name: Check out Git repository
               uses: actions/checkout@v2
 
-            - name: get-npm-version
-              id: package-version
-              uses: martinbeentjes/npm-get-version-action@v1.3.1
-            - name: print version
-            - run: echo ${{ steps.package-version.outputs.current-version}}
+            - name: Install Node.js dependencies
+              run: pnpm install
+      
+            - name: build theme
+              run: pnpm run build
+
+            - uses: actions/checkout@v3
+            - name: bump version
+              run: pnpm run version patch
+            - name: Commit report
+              run: |
+                git config --global user.name 'Nato'
+                git config --global user.email 'natowb@users.noreply.github.com'
+                git commit -am "Automated version push"
+                git push
+                git push --tags
+
+    print:
+      runs-on: ubuntu-latest
+      steps:
+
+        - name: get-npm-version
+          id: package-version
+          uses: martinbeentjes/npm-get-version-action@v1.3.1
+
+        - name: print version
+          run: echo ${{ steps.package-version.outputs.current-version}}
+
 
 
 

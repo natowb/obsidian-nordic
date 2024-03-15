@@ -33,5 +33,6 @@ jobs:
 
       - uses: ncipollo/release-action@v1
         with:
+          tag: 
           artifacts: "manifest.json, theme.css"
           makeLatest: true
