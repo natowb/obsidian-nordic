@@ -1,10 +1,9 @@
 name: Release
 
 on:
-  pull_request:
-    branches: 
-      - stable
-    types: [closed]
+  push:
+    branches:
+        - "main"
 
 
 jobs:
@@ -12,57 +11,30 @@ jobs:
         runs-on: ubuntu-latest
         permissions:
           contents: write
+          issues: write
+          pull-requests: write
         steps:
-            - name: Check out Git repository
+            - name: checkout repo
               uses: actions/checkout@v4
               with:  
-                token: ${{ secrets.ACTION_GITHUB_TOKEN }}
+                token: ${{ secrets.GITHUB_TOKEN }}
+
+            - uses: actions/setup-node@v3
+              with:
+                node-version: 20
 
             - uses: pnpm/action-setup@v3
               with:
                 version: 8
 
-            - name: Install Node.js dependencies
+            - name: install deps
               run: pnpm install
       
-            - name: build theme
+            - name: build
               run: | 
                 pnpm run build
 
-            - name: Auto Commit
-              uses: stefanzweifel/git-auto-commit-action@v5
-              with:
-                commit_message: 'chore(release): build theme.css'
-                file_pattern: '*.css'
-                push_options: '--force'
-                commit_user_name:  Release Bot # defaults to "github-actions[bot]"
-                commit_user_email: natowb@users.noreply.github.com
-            
-            - name: Bump Version
-              run: |
-                git config --global user.name "Release Bot"
-                git config --global user.email natowb@users.noreply.github.com
-                pnpm version patch
-                git push
-                git push --tags
-
-            - name: Get New Version
-              id: package-version
-              uses: martinbeentjes/npm-get-version-action@v1.3.1
-
-            - name: Print new Version
-              run: echo ${{ steps.package-version.outputs.current-version}}
-
-            - name: bundle folder
-              run: |
-                mkdir Nordic
-                cp manifest.json theme.css Nordic/
-                zip -r Nordic.zip Nordic/
-
-
-            - uses: ncipollo/release-action@v1
-              with:
-                artifacts: "manifest.json, theme.css, Nordic.zip"
-                makeLatest: true
-                tag: ${{ steps.package-version.outputs.current-version}}
-                generateReleaseNotes: true
+            - name: gen release
+              run: pnpm exec semantic-release
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,6 +1,7 @@
 {
 	"name": "obsidian-nordic",
-	"version": "1.0.5",
+	"version": "1.0.14",
+	"private": true,
 	"scripts": {
 		"commit": "commit",
 		"dev": "nodemon -e scss ./tools/build.mjs",
@@ -9,11 +10,49 @@
 		"prepare": "husky"
 	},
 	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^10.0.2",
+		"semantic-release": "^23.0.4",
 		"@commitlint/cli": "^19.1.0",
 		"@commitlint/config-conventional": "^19.1.0",
 		"@commitlint/prompt-cli": "^19.1.0",
 		"husky": "^9.0.11",
 		"node-sass": "^9.0.0",
 		"nodemon": "^3.1.0"
+	},
+	"release": {
+		"branches": [
+			"main"
+		],
+		"tagFormat": "${version}",
+		"plugins": [
+		  "@semantic-release/commit-analyzer",
+		  "@semantic-release/release-notes-generator",
+		  "@semantic-release/changelog",
+		  "@semantic-release/npm",
+		  [
+		    "@semantic-release/git",
+		    {
+			 "assets": [
+			   "package.json",
+			   "manifest.json",
+			   "versions.json",
+			   "CHANGELOG.md"
+			 ],
+			 "message": "chore(release): ${nextRelease.version} [skip ci]"
+		    }
+		  ],
+		  [
+		    "@semantic-release/github",
+		    {
+			 "assets": [
+			   "manifest.json",
+			   "theme.css"
+			 ],
+			 "releasedLabels": false
+		    }
+		  ]
+		]
 	}
 }
