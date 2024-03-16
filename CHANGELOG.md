@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/natowb/obsidian-nordic/compare/1.0.14...1.1.0) (2024-03-16)
+
+
+### Features
+
+* release 1.1.0 ([721cf81](https://github.com/natowb/obsidian-nordic/commit/721cf8120c850c7aa9119d2b0ae643df5e110482)), closes [#21](https://github.com/natowb/obsidian-nordic/issues/21)
+
 ## [1.0.14](https://github.com/natowb/obsidian-nordic/compare/1.0.13...1.0.14) (2024-03-16)
 
 
