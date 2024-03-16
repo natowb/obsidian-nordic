@@ -17,3 +17,6 @@ node_modules
 ./Nordic
 **/themes/Nordic/manifest.json
 **/themes/Nordic/theme.css
+
+
+./theme.css
