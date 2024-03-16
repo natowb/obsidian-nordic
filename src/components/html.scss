@@ -1,3 +1,12 @@
+@import 'html/highlight.scss';
+@import 'html/table.scss';
+@import 'html/code.scss';
+@import 'html/checkbox.scss';
+@import 'html/link.scss';
+
+
+
+
 .theme-dark {
 
 	--checkbox-color: var(--frost0);
@@ -5,15 +14,6 @@
 	--checkbox-border-color: var(--frost0);
 	--checkbox-border-color-hover: var(--frost0);
 	--checklist-done-color: rgba(var(--light2-raw), 0.5);
-
-	--table-header-background: rgba(var(--dark2-raw), 0.8);
-	--table-header-background-hover: var(--dark1);
-	--table-row-even-background: rgba(var(--dark2-raw), 0.6);
-	--table-row-odd-background: rgba(var(--dark2-raw), 0.8);
-	--table-row-background-hover: var(--dark2);
-
-	--code-normal: var(--frost1);
-	--code-background: var(--dark1);
 }
 
 .theme-light {
@@ -22,15 +22,7 @@
 	--checkbox-border-color: var(--frost2);
 	--checkbox-border-color-hover: var(--frost2);
 	--checklist-done-color: rgba(var(--dark2-raw), 0.4);
-
-	--table-header-background: rgba(var(--light2-raw), 0.2);
-	--table-header-background-hover: var(--light1);
-	--table-row-even-background: rgba(var(--light2-raw), 0.4);
-	--table-row-odd-background: rgba(var(--light2-raw), 0.8);
-	--table-row-background-hover: var(--light2);
 	
-	--code-normal: var(--frost3);
-	--code-background: var(--light1);
 
 	--link-decoration: none;
 	--link-decoration-hover: none;
@@ -44,25 +36,17 @@ body {
 }
 
 
-table {
-	border: 1px solid var(--background-secondary) !important;
-	border-collapse: collapse;
-}
 
-thead {
-	border-bottom: 2px solid var(--background-modifier-border) !important;
-}
+// th {
+// 	font-weight: 600 !important;
+// 	border: 1px solid var(--background-secondary) !important;
+// }
 
-th {
-	font-weight: 600 !important;
-	border: 1px solid var(--background-secondary) !important;
-}
-
-td {
-	border-left: 1px solid var(--background-secondary) !important;
-	border-right: 1px solid var(--background-secondary) !important;
-	border-bottom: 1px solid var(--background-secondary) !important;
-}
+// td {
+// 	border-left: 1px solid var(--background-secondary) !important;
+// 	border-right: 1px solid var(--background-secondary) !important;
+// 	border-bottom: 1px solid var(--background-secondary) !important;
+// }
 
 
 input[type=checkbox] {

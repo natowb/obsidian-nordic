@@ -1,5 +1,5 @@
 @function toRGB($color) {
-	@return unquote("#{red($color)} #{green($color)} #{blue($color)}");
+	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
 }
 
 @mixin includeVariables($variable, $color) {
@@ -34,34 +34,15 @@ $colors: (
 	}
 }
 
-:root {
-};
 
-	// --color-cyan: #00bfbc;
-	// --color-blue: #086ddd;
-	// --color-pink: #d53984;
-
-	// --color-cyan-rgb: 0, 191, 188;
-	// --color-blue-rgb: 8, 109, 221;
-	// --color-pink-rgb: 213, 57, 132;
-
-	// --color-red-rgb: 251, 70, 76;
-	// --color-orange-rgb: 233, 151, 63;
-	// --color-yellow-rgb: 224, 222, 113;
-	// --color-green-rgb: 68, 207, 110;
-	// --color-cyan-rgb: 83, 223, 221;
-	// --color-blue-rgb: 2, 122, 255;
-	// --color-purple-rgb: 168, 130, 255;
-	// --color-pink-rgb: 250, 153, 205;
 
 
 
 
 .theme-dark, .theme-light {
-	--accent-h: 179;
-	--accent-s: 25%;
-	--accent-l: 65%;
-
+	--accent-h: 210;
+	--accent-s: 34%;
+	--accent-l: 63%;
 
 	$purple: #b48ead;
 	$yellow: #ebcb8b;
@@ -81,17 +62,7 @@ $colors: (
 	--color-purple-rgb: #{toRGB($purple)};
 }
 
-:root {
-	--h1-color: var(--frost2);
-	--h2-color: var(--frost2);
-	--h3-color: var(--frost2);
-	--h4-color: var(--frost2);
-	--h5-color: var(--frost2);
-	--h6-color: var(--frost2);
-	--inline-title-color: var(--frost2);
-	--bold-color: var(--text-normal);
-	--italic-color: var(--text-normal);
-}
+
 
 // .theme-light {
 //   --color-base-00: #ffffff;

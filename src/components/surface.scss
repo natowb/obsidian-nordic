@@ -6,8 +6,11 @@
 	--background-secondary-alt: var(--dark2);
 	--background-modifier-border: var(--dark2);
 	--background-modifier-form-field: var(--dark1);
+
 	--background-modifier-border-hover: var(--dark1);
 	--background-modifier-border-focus: var(--dark3);
+
+	--embed-border-left: 2px solid var(--frost2);
 
 	--interactive-normal: var(--dark1);
 	--interactive-hover: var(--dark2);
@@ -21,6 +24,16 @@
 	--text-accent-hover: var(--frost2);
 	--tab-font-weight: 600;
 	--bold-weight: 600;
+
+	--h1-color: var(--frost2);
+	--h2-color: var(--light0);
+	--h3-color: var(--light0);
+	--h4-color: var(--light0);
+	--h5-color: var(--light0);
+	--h6-color: var(--light0);
+	--inline-title-color: var(--frost2);
+	--bold-color: var(--text-normal);
+	--italic-color: var(--text-normal);
 }
 
 .theme-light {
@@ -39,3 +52,4 @@
 	--text-accent: var(--frost1);
 	--text-accent-hover: var(--frost2);
 }
+
