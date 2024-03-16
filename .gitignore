@@ -14,9 +14,5 @@ node_modules
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
 
-./Nordic
-**/themes/Nordic/manifest.json
-**/themes/Nordic/theme.css
 
-
-./theme.css
+theme.css
