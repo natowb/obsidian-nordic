@@ -10,7 +10,7 @@
 ## Plugins
 > This is a list of all the plugins the theme currently explicitly supports
 
-- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
+- [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks)
 
 
 ## Credits
