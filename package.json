@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-nordic",
-	"version": "1.0.5",
+	"version": "1.0.14",
 	"private": true,
 	"scripts": {
 		"commit": "commit",
@@ -21,7 +21,7 @@
 	},
 	"release": {
 		"branches": [
-		  "main"
+			"main"
 		],
 		"tagFormat": "${version}",
 		"plugins": [
@@ -52,5 +52,5 @@
 		    }
 		  ]
 		]
-	   }
+	}
 }
