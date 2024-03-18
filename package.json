@@ -38,6 +38,7 @@
 						"package.json",
 						"manifest.json",
 						"versions.json",
+						"theme.css",
 						"CHANGELOG.md"
 					],
 					"message": "chore(release): ${nextRelease.version} [skip ci]"
