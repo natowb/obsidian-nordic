@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/natowb/obsidian-nordic/compare/1.1.0...1.2.0) (2024-03-22)
+
+
+### Features
+
+* release 1.2.0; styled settings support ([f255627](https://github.com/natowb/obsidian-nordic/commit/f2556276cdbb45245396a0bc63bd46fa6a79899f))
+
 # [1.1.0](https://github.com/natowb/obsidian-nordic/compare/1.0.14...1.1.0) (2024-03-16)
 
 
