@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/natowb/obsidian-nordic/compare/1.2.3...1.2.4) (2024-03-22)
+
+
+### Bug Fixes
+
+* set inline title font ([830ee3f](https://github.com/natowb/obsidian-nordic/commit/830ee3ff10eac7889c3210f97453ea1d495a4ef5))
+
 ## [1.2.3](https://github.com/natowb/obsidian-nordic/compare/1.2.2...1.2.3) (2024-03-22)
 
 
