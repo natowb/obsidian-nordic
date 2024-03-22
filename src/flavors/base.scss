@@ -56,9 +56,45 @@
 	--tab-outline-color: var(--accent-color);
 	--tab-text-color-focused-active-current: var(--frost2);
 
+
+
+    --metadata-background: transparent;
+    --metadata-display-reading: block;
+    --metadata-display-editing: block;
+    --metadata-max-width: none;
+    --metadata-padding: var(--size-4-2) 0;
+    --metadata-border-color: var(--color-base-10);
+    --metadata-border-radius: 0;
+    --metadata-border-width: 0;
+    --metadata-divider-color: var(--background-modifier-border);
+    --metadata-divider-color-hover: transparent;
+    --metadata-divider-color-focus: transparent;
+    --metadata-divider-width: 0;
+    --metadata-gap: 3px;
+    --metadata-property-padding: 0;
+    --metadata-property-radius: 6px;
+    --metadata-property-background: transparent;
+    --metadata-property-background-hover: transparent;
+    --metadata-property-background-active: var(--background-modifier-hover);
+    --metadata-label-background-hover: transparent;
+    --metadata-label-background-active: var(--background-modifier-hover);
+    --metadata-label-font-size: var(--font-smaller);
+    --metadata-label-font-weight: var(--font-bold);
+    --metadata-label-text-color: var(--text-normal);
+    --metadata-label-text-color-hover: var(--text-muted);
+    --metadata-label-width: 9em;
+    --metadata-input-height: calc(var(--font-text-size) * 1.75);
+    --metadata-input-text-color: var(--text-normal);
+    --metadata-input-font-size: var(--font-smaller);
+    --metadata-input-background: transparent;
+    --metadata-input-background-hover: transparent;
+    --metadata-input-background-active: var(--background-modifier-hover);
+    --metadata-sidebar-label-font-size: var(--font-ui-small);
+    --metadata-sidebar-input-font-size: var(--font-ui-small);
+
+    --header-font: "Norwester";
+    --default-font: 'Manrope';
     .markdown-rendered {
-        --default-font: 'Manrope';
-        --header-font: "Norwester";
         --h1-font: var(--header-font);
         --h2-font: var(--header-font);
         --h3-font: var(--header-font);
@@ -68,6 +104,9 @@
     }
     --header-color: var(--accent-color);
     --inline-title-color: var(--accent-color);
+    --inline-title-font: var(--header-font);
+    --bold-color: var(--accent-color);
+
     --h1-color: var(--header-color);
     --h2-color: var(--header-color);
     --h3-color: var(--header-color);
