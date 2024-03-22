@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/natowb/obsidian-nordic/compare/1.2.2...1.2.3) (2024-03-22)
+
+
+### Bug Fixes
+
+* more mobile style fixes ([d790980](https://github.com/natowb/obsidian-nordic/commit/d790980d5db31975987c155a91db87b13eff3585))
+
 ## [1.2.2](https://github.com/natowb/obsidian-nordic/compare/1.2.1...1.2.2) (2024-03-22)
 
 
