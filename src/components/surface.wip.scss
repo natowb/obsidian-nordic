@@ -1,0 +1,97 @@
+:root {
+
+
+	--h1-color: var(--frost2);
+	--h2-color: var(--frost2);
+	--h3-color: var(--frost2);
+	--h4-color: var(--frost2);
+	--h5-color: var(--frost2);
+	--h6-color: var(--frost2);
+
+	--default-font: 'Manrope';
+	--header-font: "Norwester";
+    --h1-font: var(--header-font);
+    --h2-font: var(--header-font);
+    --h3-font: var(--header-font);
+    --h4-font: var(--header-font);
+    --h5-font: var(--header-font);
+    --h6-font: var(--header-font);
+
+}
+
+
+.theme-dark {
+	--inline-title-font: "Norwester";
+	--radius-s: 0;
+	--tab-radius: 0;
+	--tab-radius-active: 0;
+	--tab-outline-width: 2px;
+	--tab-curve: 0;
+	--tab-outline-color: var(--frost2);
+	--tab-text-color-focused-active-current: var(--frost2);
+
+	--nord-base: var(--dark0);
+	--nord-secondary: var(--dark1);
+	--nord-extra: var(--dark2);
+
+	--background-primary: var(--dark0);
+	--background-primary-alt: var(--dark0);
+	--background-secondary: var(--dark0);
+	--background-secondary-alt: var(--dark1);
+	--background-modifier-border: var(--dark2);
+	--background-modifier-form-field: var(--dark2);
+
+
+	--titlebar-background: var(--dark1);
+	--titlebar-background-focused: var(--titlebar-background);
+
+	--ribbon-background: var(--dark1);
+	--ribbon-background-collapsed: var(--ribbon-background);
+
+	--background-modifier-hover: var(--dark0);
+
+	--background-modifier-border-hover: var(--dark1);
+	--background-modifier-border-focus: var(--dark3);
+
+	--embed-border-left: 2px solid var(--frost2);
+
+	--interactive-normal: var(--dark1);
+	--interactive-hover: var(--dark2);
+
+	--text-normal: var(--light2);
+	--text-faint: var(--light0);
+	--text-muted: var(--light1);
+	--text-highlight-bg: var(--frost1);
+	--text-highlight-fg: var(--dark0);
+	--text-accent: var(--frost1);
+	--text-accent-hover: var(--frost2);
+	--tab-font-weight: 600;
+	--bold-weight: 600;
+
+
+	--inline-title-color: var(--frost2);
+	--bold-color: var(--text-normal);
+	--italic-color: var(--text-normal);
+
+
+}
+
+.theme-light {
+
+	--background-primary: var(--light2);
+	--background-primary-alt: var(--light3);
+	--background-secondary: var(--light1);
+	--background-secondary-alt: var(--light1);
+	--background-modifier-border: var(--light1);
+
+    --text-normal: var(--dark2);
+	--text-faint: var(--dark0);
+	--text-muted: var(--dark1);
+	--text-highlight-bg: var(--frost1);
+	--text-highlight-fg: var(--dark0);
+	--text-accent: var(--frost1);
+	--text-accent-hover: var(--frost2);
+
+
+}
+
