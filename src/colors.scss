@@ -49,6 +49,7 @@ $colors: (
 	$green: #a3be8c;
 	$orange: #d08770;
 	$red: #bf616a;
+	$blue: #6199bf;
   
 	--color-red: #{$red};
 	--color-red-rgb: #{toRGB($red)};
@@ -60,6 +61,8 @@ $colors: (
 	--color-green-rgb: #{toRGB($green)};
 	--color-purple: #{$purple};
 	--color-purple-rgb: #{toRGB($purple)};
+	--color-blue: #{$blue};
+	--color-blue-rgb: #{toRGB($blue)};
 }
 
 

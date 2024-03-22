@@ -4,8 +4,8 @@
 	"private": true,
 	"scripts": {
 		"commit": "commit",
-		"dev": "nodemon -e scss ./tools/build.mjs",
-		"build": "node ./tools/build.mjs",
+		"dev": "NODE_ENV=DEV nodemon -e scss ./tools/build.mjs",
+		"build": "NODE_ENV=PROD node ./tools/build.mjs",
 		"version": "node ./tools/version-bump.mjs && git add package.json manifest.json versions.json package.json",
 		"prepare": "husky"
 	},
