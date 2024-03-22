@@ -1,4 +1,30 @@
+@import "node_modules/nord/src/sass/nord.scss";
+@import "fonts/index.scss";
 @import 'colors.scss';
-@import 'fonts/index.scss';
-@import 'components/index.scss';
-@import 'addons/index.scss';
+@import 'flavors/base.scss';
+@import 'flavors/uniform.scss';
+
+@import 'editor/editor';
+@import 'addons/addons';
+/* @settings
+
+name: Nordic
+id: natowb-nordic
+settings:
+    - 
+        id: nordic-theme-flavors
+        title: Flavor
+        description: Variations on the base nord theme
+        type: class-select
+        allowEmpty: true
+        default: none
+        options:
+            - nordic-uniform
+
+    - 
+        id: nordic-colored-headers
+        title: Colored Headers
+        description: colorful headers
+        type: class-toggle
+
+*/

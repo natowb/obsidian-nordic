@@ -1,0 +1,105 @@
+
+@function toRGB($color) {
+	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
+}
+
+.theme-dark, .theme-light {
+	$red: #bf616a;
+	$orange: #d08770;
+	$yellow: #ebcb8b;
+	$green: #a3be8c;
+	$cyan: #61b1bf;
+	$blue: #6199bf;
+    $purple: #958eb4;
+    $pink: #b48ead;
+  
+	--color-red: #{$red};
+	--color-red-rgb: #{toRGB($red)};
+	--color-orange: #{$orange};
+	--color-orange-rgb: #{toRGB($orange)};
+	--color-yellow: #{$yellow};
+	--color-yellow-rgb: #{toRGB($yellow)};
+	--color-green: #{$green};
+	--color-green-rgb: #{toRGB($green)};
+	--color-cyan: #{$cyan};
+	--color-cyan-rgb: #{toRGB($cyan)};
+	--color-blue: #{$blue};
+	--color-blue-rgb: #{toRGB($blue)};
+	--color-purple: #{$purple};
+	--color-purple-rgb: #{toRGB($purple)};
+	--color-pink: #{$pink};
+	--color-pink-rgb: #{toRGB($pink)};
+
+	--accent-h: 210;
+	--accent-s: 34%;
+	--accent-l: 63%;
+
+    --accent-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+
+    --text-highlight-bg: var(--accent-color);
+    --radius-s: 0;
+    --radius-m: 0;
+    --radius-l: 0;
+    --radius-xl: 0;
+    
+
+
+	--tab-radius: 0;
+	--tab-radius-active: 0;
+	--tab-outline-width: 2px;
+	--tab-curve: 0;
+	--tab-outline-color: var(--accent-color);
+	--tab-text-color-focused-active-current: var(--frost2);
+
+    .markdown-rendered {
+        --default-font: 'Manrope';
+        --header-font: "Norwester";
+        --h1-font: var(--header-font);
+        --h2-font: var(--header-font);
+        --h3-font: var(--header-font);
+        --h4-font: var(--header-font);
+        --h5-font: var(--header-font);
+        --h6-font: var(--header-font);
+    }
+    --header-color: var(--accent-color);
+    --inline-title-color: var(--accent-color);
+    --h1-color: var(--header-color);
+    --h2-color: var(--header-color);
+    --h3-color: var(--header-color);
+    --h4-color: var(--header-color);
+    --h5-color: var(--header-color);
+    --h6-color: var(--header-color);
+}
+
+
+.theme-dark {
+    --color-base-00: #{$nord0};
+    --color-base-05: #{$nord0};
+    --color-base-10: #{$nord1};
+    --color-base-20: #{$nord1};
+    --color-base-25: #{$nord2};
+    --color-base-30: #{$nord2};
+    --color-base-35: #{$nord3};
+    --color-base-40: #{$nord3};
+    --color-base-50: #{$nord4};
+    --color-base-60: #{$nord4};
+    --color-base-70: #{$nord5};
+    --color-base-100: #{$nord6};
+}
+
+
+
+.theme-light {
+    --color-base-00: white;
+    --color-base-05: white;
+    --color-base-10: #{$nord6};
+    --color-base-20: #{$nord6};
+    --color-base-25: #{$nord5};
+    --color-base-30: #{$nord5};
+    --color-base-35: #{$nord4};
+    --color-base-40: #{$nord4};
+    --color-base-50: #{$nord3};
+    --color-base-60: #{$nord2};
+    --color-base-70: #{$nord1};
+    --color-base-100: #{$nord0};
+}
