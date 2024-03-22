@@ -10,16 +10,16 @@
 		"prepare": "husky"
 	},
 	"devDependencies": {
-		"@semantic-release/changelog": "^6.0.3",
-		"@semantic-release/git": "^10.0.1",
-		"@semantic-release/github": "^10.0.2",
-		"semantic-release": "^23.0.4",
 		"@commitlint/cli": "^19.1.0",
 		"@commitlint/config-conventional": "^19.1.0",
 		"@commitlint/prompt-cli": "^19.1.0",
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^10.0.2",
 		"husky": "^9.0.11",
 		"node-sass": "^9.0.0",
-		"nodemon": "^3.1.0"
+		"nodemon": "^3.1.0",
+		"semantic-release": "^23.0.4"
 	},
 	"release": {
 		"branches": [
@@ -55,5 +55,8 @@
 				}
 			]
 		]
+	},
+	"dependencies": {
+		"nord": "^0.2.1"
 	}
 }

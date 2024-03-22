@@ -1,0 +1,65 @@
+@function toRGB($color) {
+	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
+}
+
+.theme-dark.nordic-uniform, .theme-light.nordic-uniform {
+	$red: #bf616a;
+	$orange: #d08770;
+	$yellow: #ebcb8b;
+	$green: #a3be8c;
+	$cyan: #61b1bf;
+	$blue: #6199bf;
+    $purple: #958eb4;
+    $pink: #b48ead;
+  
+	--color-red: #{$red};
+	--color-red-rgb: #{toRGB($red)};
+	--color-orange: #{$orange};
+	--color-orange-rgb: #{toRGB($orange)};
+	--color-yellow: #{$yellow};
+	--color-yellow-rgb: #{toRGB($yellow)};
+	--color-green: #{$green};
+	--color-green-rgb: #{toRGB($green)};
+	--color-cyan: #{$cyan};
+	--color-cyan-rgb: #{toRGB($cyan)};
+	--color-blue: #{$blue};
+	--color-blue-rgb: #{toRGB($blue)};
+	--color-purple: #{$purple};
+	--color-purple-rgb: #{toRGB($purple)};
+	--color-pink: #{$pink};
+	--color-pink-rgb: #{toRGB($pink)};
+
+	--accent-h: 210;
+	--accent-s: 34%;
+	--accent-l: 63%;
+}
+
+.theme-dark.nordic-uniform {
+    --color-base-00: #{$nord0};
+    --color-base-05: #{$nord0};
+    --color-base-10: #{$nord1};
+    --color-base-20: #{$nord0};
+    --color-base-25: #{$nord0};
+    --color-base-30: #{$nord2};
+    --color-base-35: #{$nord3};
+    --color-base-40: #{$nord3};
+    --color-base-50: #{$nord4};
+    --color-base-60: #{$nord4};
+    --color-base-70: #{$nord5};
+    --color-base-100: #{$nord6};
+}
+
+.theme-light.nordic-uniform {
+    --color-base-00: white;
+    --color-base-05: white;
+    --color-base-10: #{$nord6};
+    --color-base-20: white;
+    --color-base-25: white;
+    --color-base-30: #{$nord4};
+    --color-base-35: #{$nord4};
+    --color-base-40: #{$nord4};
+    --color-base-50: #{$nord3};
+    --color-base-60: #{$nord2};
+    --color-base-70: #{$nord1};
+    --color-base-100: #{$nord0};
+}
