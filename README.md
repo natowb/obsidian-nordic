@@ -14,6 +14,7 @@
 
 
 ## Credits
-- [Rubik Font](https://fonts.google.com/specimen/Rubik): for the great font
+- [Manrope font](https://fonts.google.com/specimen/Manrope)
+- [Norwester font by James Wilson](https://jamiewilson.io/norwester/)
 - [Nord Theme](https://www.nordtheme.com/): for the amazing palette 
 - [Obsidian Nord](https://github.com/insanum/obsidian_nord): for the initial inspiration
