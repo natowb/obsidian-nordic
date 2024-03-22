@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/natowb/obsidian-nordic/compare/1.2.0...1.2.1) (2024-03-22)
+
+
+### Bug Fixes
+
+* fantasy statblock support ([18e0f55](https://github.com/natowb/obsidian-nordic/commit/18e0f55c9a27c6f743a4fc917792f378805b2634))
+
 # [1.2.0](https://github.com/natowb/obsidian-nordic/compare/1.1.0...1.2.0) (2024-03-22)
 
 
