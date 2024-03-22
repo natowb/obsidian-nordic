@@ -1,9 +1,7 @@
 @import "node_modules/nord/src/sass/nord.scss";
-@import "fonts/index.scss";
 @import 'colors.scss';
-@import 'flavors/base.scss';
-@import 'flavors/uniform.scss';
-
+@import "fonts/fonts";
+@import 'flavors/flavors';
 @import 'editor/editor';
 @import 'addons/addons';
 /* @settings
