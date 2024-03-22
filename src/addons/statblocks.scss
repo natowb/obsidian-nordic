@@ -1,16 +1,16 @@
 .theme-dark {
-	--statblock-property-name-font-color: var(--dark0);
-	--statblock-section-heading-font-color: var(--dark0);
+	--statblock-property-name-font-color: var(--frost3);
+	--statblock-section-heading-font-color: var(--frost3);
 	--statblock-heading-font-color: var(--dark0);
 	--statblock-heading-font-color: var(--dark1);
 
-	--statblock-primary-color: var(--frost2);
+	--statblock-primary-color: var(--light1);
 	--statblock-rule-color: var(--frost3);
-	--statblock-background-color: var(--dark0);
+	--statblock-background-color: rgba(var(--mono-rgb-0), 0.2);
 	--statblock-bar-color: var(--frost3);
 	--statblock-image-border-color: var(--statblock-primary-color);
 	--statblock-border-color: var(--dark1);
-	--statblock-box-shadow-color: var(--dark1);
+	--statblock-box-shadow-color: rgba(var(--mono-rgb-0), 0.4);
 	--statblock-font-color: var(--statblock-primary-color);
 	--statblock-heading-font-color: var(--frost3);
 	--statblock-property-font-color: var(--statblock-font-color);
@@ -19,14 +19,14 @@
 
 
 .theme-light {
-	--statblock-property-name-font-color: var(--light3);
-	--statblock-section-heading-font-color: var(--light3);
-	--statblock-heading-font-color: var(--light3);
-	--statblock-heading-font-color: var(--light2);
+	--statblock-property-name-font-color: var(--frost3);
+	--statblock-section-heading-font-color: var(--frost3);
+	--statblock-heading-font-color: var(--dark0);
+	--statblock-heading-font-color: var(--dark1);
 
 	--statblock-primary-color: var(--frost2);
 	--statblock-rule-color: var(--frost3);
-	--statblock-background-color: var(--light3);
+	--statblock-background-color: rgba(var(--mono-rgb-100), 0.05);
 	--statblock-bar-color: var(--frost3);
 	--statblock-image-border-color: var(--statblock-primary-color);
 	--statblock-border-color: var(--light2);
