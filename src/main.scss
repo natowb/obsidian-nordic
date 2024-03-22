@@ -14,9 +14,10 @@ settings:
         title: Flavor
         description: Variations on the base nord theme
         type: class-select
-        allowEmpty: true
-        default: none
+        allowEmpty: false
+        default: nordic-base
         options:
+            - nordic-base
             - nordic-uniform
 
     - 
