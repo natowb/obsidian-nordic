@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/natowb/obsidian-nordic/compare/1.2.1...1.2.2) (2024-03-22)
+
+
+### Bug Fixes
+
+* fix mobile flavor issue ([6dcbe52](https://github.com/natowb/obsidian-nordic/commit/6dcbe52c87eec557155c9350968a1a880ca3a952))
+
 ## [1.2.1](https://github.com/natowb/obsidian-nordic/compare/1.2.0...1.2.1) (2024-03-22)
 
 
