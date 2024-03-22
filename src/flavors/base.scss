@@ -3,8 +3,12 @@
 	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
 }
 
-.theme-dark, .theme-light,
-.theme-dark.nordic-base, .theme-light.nordic-base {
+.theme-dark,
+.theme-light,
+.theme-dark.nordic-base,
+.theme-light.nordic-base,
+.is-mobile.theme-dark,
+.is-mobile.theme-light {
 	$red: #bf616a;
 	$orange: #d08770;
 	$yellow: #ebcb8b;
@@ -73,7 +77,7 @@
 }
 
 
-.theme-dark, .theme-dark.nordic-base {
+.is-mobile.theme-dark, .theme-dark, .theme-dark.nordic-base {
     --color-base-00: #{$nord0};
     --color-base-05: #{$nord0};
     --color-base-10: #{$nord1};
@@ -90,7 +94,7 @@
 
 
 
-.theme-light, .theme-light.nordic-base {
+.is-mobile.theme-light, .theme-light, .theme-light.nordic-base {
     --color-base-00: white;
     --color-base-05: white;
     --color-base-10: #{$nord6};
