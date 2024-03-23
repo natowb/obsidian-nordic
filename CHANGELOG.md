@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/natowb/obsidian-nordic/compare/1.2.5...1.2.6) (2024-03-23)
+
+
+### Bug Fixes
+
+* add callout border; callout title bold ([#26](https://github.com/natowb/obsidian-nordic/issues/26)) ([e1bc46a](https://github.com/natowb/obsidian-nordic/commit/e1bc46a533b33931f3edcb28d0b22c888adcc3b1))
+
 ## [1.2.5](https://github.com/natowb/obsidian-nordic/compare/1.2.4...1.2.5) (2024-03-23)
 
 
