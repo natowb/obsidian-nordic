@@ -1,3 +1,11 @@
+## [1.2.10](https://github.com/natowb/obsidian-nordic/compare/1.2.9...1.2.10) (2024-03-23)
+
+
+### Bug Fixes
+
+* update blockquote styles ([09da6fe](https://github.com/natowb/obsidian-nordic/commit/09da6fed26f6bc81915412d112c7664a7e51f0bc))
+* update table styles ([f894c8a](https://github.com/natowb/obsidian-nordic/commit/f894c8a261650f5a4c5d87a1a9b7ad01e7a7086d))
+
 ## [1.2.9](https://github.com/natowb/obsidian-nordic/compare/1.2.8...1.2.9) (2024-03-23)
 
 
