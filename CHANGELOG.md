@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/natowb/obsidian-nordic/compare/1.2.7...1.2.8) (2024-03-23)
+
+
+### Bug Fixes
+
+* new style setting darker dark theme ([ccd7f88](https://github.com/natowb/obsidian-nordic/commit/ccd7f88eb8b0aacdedec23e7a76444c7b064c993))
+
 ## [1.2.7](https://github.com/natowb/obsidian-nordic/compare/1.2.6...1.2.7) (2024-03-23)
 
 
