@@ -21,7 +21,7 @@ This is another paragraph.
 #### This is a heading 4
 ##### This is a heading 5
 ###### This is a heading 6
-
+ 
 
 
 
@@ -50,7 +50,7 @@ This is another paragraph.
 
 ### Tasks
 
-- [x] This is a completed task.
+- [ ] This is a completed task.
 - [ ] This is an incomplete task.
 
 ### Nested
@@ -89,8 +89,10 @@ _ _ _
 `inline code`
 
 
-```
-code block
+```javascript
+function hello() {
+console.log('testing');
+}
 ```
 
 

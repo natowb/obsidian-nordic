@@ -1,6 +1,5 @@
-
 @function toRGB($color) {
-	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
+    @return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
 }
 
 .theme-dark,
@@ -9,103 +8,53 @@
 .theme-light.nordic-base,
 .is-mobile.theme-dark,
 .is-mobile.theme-light {
-	$red: #bf616a;
-	$orange: #d08770;
-	$yellow: #ebcb8b;
-	$green: #a3be8c;
-	$cyan: #61b1bf;
-	$blue: #6199bf;
+    $red: #bf616a;
+    $orange: #d08770;
+    $yellow: #ebcb8b;
+    $green: #a3be8c;
+    $cyan: #61b1bf;
+    $blue: #6199bf;
     $purple: #958eb4;
     $pink: #b48ead;
-  
-	--color-red: #{$red};
-	--color-red-rgb: #{toRGB($red)};
-	--color-orange: #{$orange};
-	--color-orange-rgb: #{toRGB($orange)};
-	--color-yellow: #{$yellow};
-	--color-yellow-rgb: #{toRGB($yellow)};
-	--color-green: #{$green};
-	--color-green-rgb: #{toRGB($green)};
-	--color-cyan: #{$cyan};
-	--color-cyan-rgb: #{toRGB($cyan)};
-	--color-blue: #{$blue};
-	--color-blue-rgb: #{toRGB($blue)};
-	--color-purple: #{$purple};
-	--color-purple-rgb: #{toRGB($purple)};
-	--color-pink: #{$pink};
-	--color-pink-rgb: #{toRGB($pink)};
 
-	--accent-h: 210;
-	--accent-s: 34%;
-	--accent-l: 63%;
+    --color-red: #{$red};
+    --color-red-rgb: #{toRGB($red)};
+    --color-orange: #{$orange};
+    --color-orange-rgb: #{toRGB($orange)};
+    --color-yellow: #{$yellow};
+    --color-yellow-rgb: #{toRGB($yellow)};
+    --color-green: #{$green};
+    --color-green-rgb: #{toRGB($green)};
+    --color-cyan: #{$cyan};
+    --color-cyan-rgb: #{toRGB($cyan)};
+    --color-blue: #{$blue};
+    --color-blue-rgb: #{toRGB($blue)};
+    --color-purple: #{$purple};
+    --color-purple-rgb: #{toRGB($purple)};
+    --color-pink: #{$pink};
+    --color-pink-rgb: #{toRGB($pink)};
+
+    --accent-h: 210;
+    --accent-s: 34%;
+    --accent-l: 63%;
 
     --accent-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 
     --text-highlight-bg: var(--accent-color);
-    --radius-s: 0;
-    --radius-m: 0;
-    --radius-l: 0;
-    --radius-xl: 0;
-    
 
-
-	--tab-radius: 0;
-	--tab-radius-active: 0;
-	--tab-outline-width: 2px;
-	--tab-curve: 0;
-	--tab-outline-color: var(--accent-color);
-	--tab-text-color-focused-active-current: var(--frost2);
-
-
-
-    --metadata-background: transparent;
-    --metadata-display-reading: block;
-    --metadata-display-editing: block;
-    --metadata-max-width: none;
-    --metadata-padding: var(--size-4-2) 0;
-    --metadata-border-color: var(--color-base-10);
-    --metadata-border-radius: 0;
-    --metadata-border-width: 0;
-    --metadata-divider-color: var(--background-modifier-border);
-    --metadata-divider-color-hover: transparent;
-    --metadata-divider-color-focus: transparent;
-    --metadata-divider-width: 0;
-    --metadata-gap: 3px;
-    --metadata-property-padding: 0;
-    --metadata-property-radius: 6px;
-    --metadata-property-background: transparent;
-    --metadata-property-background-hover: transparent;
-    --metadata-property-background-active: var(--background-modifier-hover);
-    --metadata-label-background-hover: transparent;
-    --metadata-label-background-active: var(--background-modifier-hover);
-    --metadata-label-font-size: var(--font-smaller);
-    --metadata-label-font-weight: var(--font-bold);
-    --metadata-label-text-color: var(--text-normal);
-    --metadata-label-text-color-hover: var(--text-muted);
-    --metadata-label-width: 9em;
-    --metadata-input-height: calc(var(--font-text-size) * 1.75);
-    --metadata-input-text-color: var(--text-normal);
-    --metadata-input-font-size: var(--font-smaller);
-    --metadata-input-background: transparent;
-    --metadata-input-background-hover: transparent;
-    --metadata-input-background-active: var(--background-modifier-hover);
-    --metadata-sidebar-label-font-size: var(--font-ui-small);
-    --metadata-sidebar-input-font-size: var(--font-ui-small);
-
-    --header-font: "Norwester";
-    --default-font: 'Manrope';
-    .markdown-rendered {
-        --h1-font: var(--header-font);
-        --h2-font: var(--header-font);
-        --h3-font: var(--header-font);
-        --h4-font: var(--header-font);
-        --h5-font: var(--header-font);
-        --h6-font: var(--header-font);
-    }
     --header-color: var(--accent-color);
     --inline-title-color: var(--accent-color);
     --inline-title-font: var(--header-font);
     --bold-color: var(--accent-color);
+
+    --tab-radius: 0;
+    --tab-radius-active: 0;
+    --tab-outline-width: 2px;
+    --tab-curve: 0;
+    --tab-outline-color: var(--accent-color);
+    --tab-text-color-focused-active-current: var(--frost2);
+    --default-font: 'Manrope';
+    --header-font: "Norwester";
 
     --h1-color: var(--header-color);
     --h2-color: var(--header-color);
@@ -113,10 +62,33 @@
     --h4-color: var(--header-color);
     --h5-color: var(--header-color);
     --h6-color: var(--header-color);
+
+    .markdown-source-view:not(.is-live-preview) {
+        --h1-size: var(--font-text);
+        --h2-size: var(--font-text);
+        --h3-size: var(--font-text);
+        --h4-size: var(--font-text);
+        --h5-size: var(--font-text);
+        --h6-size: var(--font-text);
+    }
+
+
+
+
+    .markdown-rendered,
+    .markdown-source-view:is(.is-live-preview) {
+        --h1-font: var(--header-font);
+        --h2-font: var(--header-font);
+        --h3-font: var(--header-font);
+        --h4-font: var(--header-font);
+        --h5-font: var(--header-font);
+        --h6-font: var(--header-font);
+    }
 }
 
-
-.is-mobile.theme-dark, .theme-dark, .theme-dark.nordic-base {
+.is-mobile.theme-dark,
+.theme-dark,
+.theme-dark.nordic-base {
     --color-base-00: #{$nord0};
     --color-base-05: #{$nord0};
     --color-base-10: #{$nord1};
@@ -133,7 +105,9 @@
 
 
 
-.is-mobile.theme-light, .theme-light, .theme-light.nordic-base {
+.is-mobile.theme-light,
+.theme-light,
+.theme-light.nordic-base {
     --color-base-00: white;
     --color-base-05: white;
     --color-base-10: #{$nord6};
