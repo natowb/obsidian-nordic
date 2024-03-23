@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/natowb/obsidian-nordic/compare/1.2.6...1.2.7) (2024-03-23)
+
+
+### Bug Fixes
+
+* change default font; change callout title font ([ef6b89f](https://github.com/natowb/obsidian-nordic/commit/ef6b89f57a5dc62d8da91c979c01be7650d7a3b3))
+
 ## [1.2.6](https://github.com/natowb/obsidian-nordic/compare/1.2.5...1.2.6) (2024-03-23)
 
 
