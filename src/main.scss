@@ -22,8 +22,18 @@ settings:
 
     - 
         id: nordic-colored-headers
-        title: Colored Headers
-        description: colorful headers
+        title: Colored Headers (Rainbow Headers)
+        description: adds different colors for each of the headings
         type: class-toggle
+    - 
+        id: nordic-darken
+        title: Darker Dark Theme
+        description: prefer things a little darker? mix the base colors with this percentage of black
+        type: variable-number-slider
+        format: '%'
+        default: 0
+        min: 0
+        max: 50
+        step: 1
 
 */

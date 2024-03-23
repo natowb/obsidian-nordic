@@ -35,31 +35,31 @@
 }
 
 .theme-dark.nordic-uniform {
-    --color-base-00: #{$nord0};
-    --color-base-05: #{$nord0};
-    --color-base-10: #{$nord1};
-    --color-base-20: #{$nord0};
-    --color-base-25: #{$nord0};
-    --color-base-30: #{$nord2};
-    --color-base-35: #{$nord3};
-    --color-base-40: #{$nord3};
-    --color-base-50: #{$nord4};
-    --color-base-60: #{$nord4};
-    --color-base-70: #{$nord5};
-    --color-base-100: #{$nord6};
+    --nord-color-base-00: #{$nord0};
+    --nord-color-base-05: #{$nord0};
+    --nord-color-base-10: #{$nord1};
+    --nord-color-base-20: #{$nord0};
+    --nord-color-base-25: #{$nord0};
+    --nord-color-base-30: #{$nord2};
+    --nord-color-base-35: #{$nord3};
+    --nord-color-base-40: #{$nord3};
+    --nord-color-base-50: #{$nord4};
+    --nord-color-base-60: #{$nord4};
+    --nord-color-base-70: #{$nord5};
+    --nord-color-base-100: #{$nord6};
 }
 
 .theme-light.nordic-uniform {
-    --color-base-00: white;
-    --color-base-05: white;
-    --color-base-10: #{$nord6};
-    --color-base-20: white;
-    --color-base-25: white;
-    --color-base-30: #{$nord4};
-    --color-base-35: #{$nord4};
-    --color-base-40: #{$nord4};
-    --color-base-50: #{$nord3};
-    --color-base-60: #{$nord2};
-    --color-base-70: #{$nord1};
-    --color-base-100: #{$nord0};
+    --nord-color-base-00: white;
+    --nord-color-base-05: white;
+    --nord-color-base-10: #{$nord6};
+    --nord-color-base-20: white;
+    --nord-color-base-25: white;
+    --nord-color-base-30: #{$nord4};
+    --nord-color-base-35: #{$nord4};
+    --nord-color-base-40: #{$nord4};
+    --nord-color-base-50: #{$nord3};
+    --nord-color-base-60: #{$nord2};
+    --nord-color-base-70: #{$nord1};
+    --nord-color-base-100: #{$nord0};
 }
