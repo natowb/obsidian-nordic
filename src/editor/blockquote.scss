@@ -1,0 +1,8 @@
+.markdown-rendered blockquote {
+    --blockquote-background-color: var(--background-primary-alt);
+    padding: 12px 24px;;
+}
+
+.cm-s-obsidian span.cm-formatting-quote {
+    color: color-mix(in srgb, var(--text-faint), var(--background-primary) 25%);
+}
