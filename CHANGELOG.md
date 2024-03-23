@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/natowb/obsidian-nordic/compare/1.2.8...1.2.9) (2024-03-23)
+
+
+### Bug Fixes
+
+* fix non style settings vault ([9046c74](https://github.com/natowb/obsidian-nordic/commit/9046c74dbb19c61a9a1a4f10d33a6b9aae8f4e20))
+
 ## [1.2.8](https://github.com/natowb/obsidian-nordic/compare/1.2.7...1.2.8) (2024-03-23)
 
 
