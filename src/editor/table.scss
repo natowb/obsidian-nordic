@@ -1,46 +1,34 @@
 .theme-dark {
-
-	--table-header-background: rgba(var(--dark1-raw), 0.4);
-	--table-header-background-hover: var(--dark1);
-	--table-row-even-background: rgba(var(--dark1-raw), 0.6);
-	--table-row-odd-background: rgba(var(--dark2-raw), 0.8);
-	--table-row-background-hover: var(--dark2);
-	--table-border-color: var(--dark0);
+	--table-header-font: var(--header-font);
 	--table-border-width: 1px;
+	--table-column-alt-background: transparent;
+	--table-header-border-color: rgba(var(--mono-rgb-0), 50%);
+	--table-border-color: rgba(var(--mono-rgb-0), 50%);
 
+
+	--table-header-background: rgba(var(--mono-rgb-0), 25%);
+	--table-background: rgba(var(--mono-rgb-100), 5%);
+	--table-row-alt-background: rgba(var(--mono-rgb-0), 5%);
+
+	--table-header-background-hover: rgba(var(--mono-rgb-100), 10%);
+	--table-row-background-hover: rgba(var(--mono-rgb-100), 10%);
+	--table-row-alt-background-hover: rgba(var(--mono-rgb-100), 10%);
 }
 
 .theme-light {
-
-	--table-header-background: rgba(var(--light2-raw), 0.2);
-	--table-header-background-hover: var(--light1);
-	--table-row-even-background: rgba(var(--light2-raw), 0.4);
-	--table-row-odd-background: rgba(var(--light2-raw), 0.8);
-	--table-row-background-hover: var(--light2);
-	--table-border-color: var(--light3);
+	--table-header-font: var(--header-font);
 	--table-border-width: 1px;
+	--table-column-alt-background: transparent;
+	--table-header-border-color: rgba(var(--mono-rgb-100), 50%);
+	--table-border-color: rgba(var(--mono-rgb-100), 50%);
+
+
+	--table-header-background: rgba(var(--mono-rgb-100), 25%);
+	--table-background: rgba(var(--mono-rgb-0), 5%);
+	--table-row-alt-background: rgba(var(--mono-rgb-100), 5%);
+
+	--table-header-background-hover: rgba(var(--mono-rgb-0), 10%);
+	--table-row-background-hover: rgba(var(--mono-rgb-0), 10%);
+	--table-row-alt-background-hover: rgba(var(--mono-rgb-0), 10%);
 }
 
-
-
-table {
-	border: 1px solid var(--background-secondary) !important;
-	border-collapse: collapse;
-}
-
-thead {
-	border-bottom: 2px solid var(--table-border-color) !important;
-}
-
-.markdown-rendered tbody tr:nth-child(even) {
-	background-color: var(--table-row-even-background) !important;
-}
-
-.markdown-rendered tbody tr:nth-child(odd) {
-	background-color: var(--table-row-odd-background) !important;
-}
-
-.markdown-rendered tbody tr:nth-child(even):hover,
-.markdown-rendered tbody tr:nth-child(odd):hover {
-	background-color: var(--table-row-background-hover) !important;
-}
