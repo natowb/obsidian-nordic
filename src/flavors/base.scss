@@ -2,6 +2,10 @@
     @return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
 }
 
+:root {
+    --nordic-darken: 0%;
+}
+
 .theme-dark,
 .theme-light,
 .theme-dark.nordic-base,
