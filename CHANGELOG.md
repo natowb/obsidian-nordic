@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/natowb/obsidian-nordic/compare/1.2.4...1.2.5) (2024-03-23)
+
+
+### Bug Fixes
+
+* remove heading font size in source view ([6b4f6cf](https://github.com/natowb/obsidian-nordic/commit/6b4f6cf12e158a26f3eaa2a5f3e6ba4c88e406d1))
+
 ## [1.2.4](https://github.com/natowb/obsidian-nordic/compare/1.2.3...1.2.4) (2024-03-22)
 
 
