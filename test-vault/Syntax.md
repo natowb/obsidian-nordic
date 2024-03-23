@@ -3,6 +3,11 @@ tags:
   - hello
 ---
 
+> [!callout]
+> Hello world
+> Hello World
+
+> Hello world
 
 ## Paragraphs
 This is a paragraph.

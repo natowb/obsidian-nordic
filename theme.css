@@ -28,23 +28,17 @@
 
 .theme-light.nordic-uniform { --nord-color-base-00: white; --nord-color-base-05: white; --nord-color-base-10: #ECEFF4; --nord-color-base-20: white; --nord-color-base-25: white; --nord-color-base-30: #D8DEE9; --nord-color-base-35: #D8DEE9; --nord-color-base-40: #D8DEE9; --nord-color-base-50: #4C566A; --nord-color-base-60: #434C5E; --nord-color-base-70: #3B4252; --nord-color-base-100: #2E3440; }
 
-.theme-dark { --table-header-background: rgba(var(--dark1-raw), 0.4); --table-header-background-hover: var(--dark1); --table-row-even-background: rgba(var(--dark1-raw), 0.6); --table-row-odd-background: rgba(var(--dark2-raw), 0.8); --table-row-background-hover: var(--dark2); --table-border-color: var(--dark0); --table-border-width: 1px; }
+.theme-dark { --table-header-font: var(--header-font); --table-border-width: 1px; --table-column-alt-background: transparent; --table-header-border-color: rgba(var(--mono-rgb-0), 50%); --table-border-color: rgba(var(--mono-rgb-0), 50%); --table-header-background: rgba(var(--mono-rgb-0), 25%); --table-background: rgba(var(--mono-rgb-100), 5%); --table-row-alt-background: rgba(var(--mono-rgb-0), 5%); --table-header-background-hover: rgba(var(--mono-rgb-100), 10%); --table-row-background-hover: rgba(var(--mono-rgb-100), 10%); --table-row-alt-background-hover: rgba(var(--mono-rgb-100), 10%); }
 
-.theme-light { --table-header-background: rgba(var(--light2-raw), 0.2); --table-header-background-hover: var(--light1); --table-row-even-background: rgba(var(--light2-raw), 0.4); --table-row-odd-background: rgba(var(--light2-raw), 0.8); --table-row-background-hover: var(--light2); --table-border-color: var(--light3); --table-border-width: 1px; }
-
-table { border: 1px solid var(--background-secondary) !important; border-collapse: collapse; }
-
-thead { border-bottom: 2px solid var(--table-border-color) !important; }
-
-.markdown-rendered tbody tr:nth-child(even) { background-color: var(--table-row-even-background) !important; }
-
-.markdown-rendered tbody tr:nth-child(odd) { background-color: var(--table-row-odd-background) !important; }
-
-.markdown-rendered tbody tr:nth-child(even):hover, .markdown-rendered tbody tr:nth-child(odd):hover { background-color: var(--table-row-background-hover) !important; }
+.theme-light { --table-header-font: var(--header-font); --table-border-width: 1px; --table-column-alt-background: transparent; --table-header-border-color: rgba(var(--mono-rgb-100), 50%); --table-border-color: rgba(var(--mono-rgb-100), 50%); --table-header-background: rgba(var(--mono-rgb-100), 25%); --table-background: rgba(var(--mono-rgb-0), 5%); --table-row-alt-background: rgba(var(--mono-rgb-100), 5%); --table-header-background-hover: rgba(var(--mono-rgb-0), 10%); --table-row-background-hover: rgba(var(--mono-rgb-0), 10%); --table-row-alt-background-hover: rgba(var(--mono-rgb-0), 10%); }
 
 .callout { --callout-padding: 0; --callout-content-padding: 0 10px; --callout-title-padding: 6px 10px; --callout-title-background: var(--callout-color); --callout-border-opacity: .5; --callout-radius: 0; --bold-color: rgb(var(--callout-color)); border: 1px solid rgba(var(--callout-color), var(--callout-border-opacity)); }
 
 .callout-title { background-color: rgba(var(--callout-title-background, var(--callout-color)), 0.2); font-family: "Norwester"; }
+
+.markdown-rendered blockquote { --blockquote-background-color: var(--background-primary-alt); padding: 12px 24px; }
+
+.cm-s-obsidian span.cm-formatting-quote { color: color-mix(in srgb, var(--text-faint), var(--background-primary) 25%); }
 
 .theme-dark { --statblock-property-name-font-color: var(--frost3); --statblock-section-heading-font-color: var(--frost3); --statblock-heading-font-color: var(--dark0); --statblock-heading-font-color: var(--dark1); --statblock-primary-color: var(--light1); --statblock-rule-color: var(--frost3); --statblock-background-color: rgba(var(--mono-rgb-0), 0.2); --statblock-bar-color: var(--frost3); --statblock-image-border-color: var(--statblock-primary-color); --statblock-border-color: var(--dark1); --statblock-box-shadow-color: rgba(var(--mono-rgb-0), 0.4); --statblock-font-color: var(--statblock-primary-color); --statblock-heading-font-color: var(--frost3); --statblock-property-font-color: var(--statblock-font-color); --statblock-section-heading-border-color: var(--statblock-primary-color); }
 
