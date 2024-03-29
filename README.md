@@ -35,3 +35,4 @@
 - [Norwester font by James Wilson](https://jamiewilson.io/norwester/)
 - [Nord Theme](https://www.nordtheme.com/): for the amazing palette 
 - [Obsidian Nord](https://github.com/insanum/obsidian_nord): for the initial inspiration
+- [Discord Nordic](https://github.com/orblazer/discord-nordic): for the initial inspiration
