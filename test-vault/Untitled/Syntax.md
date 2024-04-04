@@ -3,14 +3,17 @@ tags:
   - hello
 ---
 
-> [!callout]
+> [!danger]
 > Hello world
 > Hello World
+> **Hello**
+>  # Hello World
+>  ## Hello Again
 
 > Hello world
 
 ## Paragraphs
-This is a paragraph.
+This is a paragraph **Bold** with bold in the middle
 
 This is another paragraph.
 

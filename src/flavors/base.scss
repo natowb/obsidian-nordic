@@ -49,7 +49,6 @@
     --header-color: var(--accent-color);
     --inline-title-color: var(--accent-color);
     --inline-title-font: var(--header-font);
-    --bold-color: var(--accent-color);
 
     --tab-radius: 0;
     --tab-radius-active: 0;
@@ -118,6 +117,9 @@
     --color-base-60: var(--nord-color-base-60);
     --color-base-70: var(--nord-color-base-70);
     --color-base-100: var(--nord-color-base-100);
+
+    --text-normal: color-mix(in srgb, var(--accent-color), #FFF 65%);
+    --text-muted: color-mix(in srgb, var(--accent-color), #FFF 40%);
 }
 
 
@@ -151,4 +153,7 @@
     --color-base-60: var(--nord-color-base-60);
     --color-base-70: var(--nord-color-base-70);
     --color-base-100: var(--nord-color-base-100);
+
+    --text-normal: color-mix(in srgb, var(--accent-color), #000 45%);
+    --text-muted: color-mix(in srgb, var(--accent-color), #000 20%);
 }
