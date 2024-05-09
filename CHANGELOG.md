@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/natowb/obsidian-nordic/compare/1.3.0...1.3.1) (2024-05-09)
+
+
+### Bug Fixes
+
+* font colors ([8f28bf5](https://github.com/natowb/obsidian-nordic/commit/8f28bf58bb12b4cad8cbed773234a73d7a6165bd))
+
 # [1.3.0](https://github.com/natowb/obsidian-nordic/compare/1.2.10...1.3.0) (2024-04-04)
 
 
