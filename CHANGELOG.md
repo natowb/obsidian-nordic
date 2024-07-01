@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/natowb/obsidian-nordic/compare/1.3.1...1.4.0) (2024-07-01)
+
+
+### Features
+
+* update main text font ([#27](https://github.com/natowb/obsidian-nordic/issues/27)) ([bf24697](https://github.com/natowb/obsidian-nordic/commit/bf24697f03fdfdb7ab2566597ababb27732d5ed2))
+
 ## [1.3.1](https://github.com/natowb/obsidian-nordic/compare/1.3.0...1.3.1) (2024-05-09)
 
 
