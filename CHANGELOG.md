@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/natobtw/obsidian-nordic/compare/1.4.0...1.4.1) (2026-08-01)
+
+
+### Bug Fixes
+
+* update --callout-color usage for Obsidian 1.13+ ([74f2d81](https://github.com/natobtw/obsidian-nordic/commit/74f2d81a54138dc35e8e7805b024a55cfc9b5b10))
+
 # [1.4.0](https://github.com/natowb/obsidian-nordic/compare/1.3.1...1.4.0) (2024-07-01)
 
 
