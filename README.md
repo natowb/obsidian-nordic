@@ -5,15 +5,12 @@
 
 ---
 
-
-
-
 ## Flavors
 
 ### Base
 |      Light         |         Dark       |
 |---------------------|---------------------|
-| ![](assets/flavors/flavor-default-light.png) | ![](assets/flavors/flavor-default.png) |
+| ![](assets/flavors/flavor-base-light.png) | ![](assets/flavors/flavor-base.png) |
 
 
 ### Uniform
@@ -25,10 +22,19 @@
 ## Plugins
 > This is a list of all the plugins the theme currently explicitly supports
 - [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks)
+- [Styled Settings]()
 
+
+## Installation
+
+### Obsidian
+- Goto settings
+- Click appearances tab
+- Next to themes click manage
+- Search for `Nordic` and select it
+- Click `Use this theme`, you are done :)
 
 ## Credits
-- [Manrope font](https://fonts.google.com/specimen/Manrope)
 - [Norwester font by James Wilson](https://jamiewilson.io/norwester/)
 - [Nord Theme](https://www.nordtheme.com/): for the amazing palette 
 - [Obsidian Nord](https://github.com/insanum/obsidian_nord): for the initial inspiration
