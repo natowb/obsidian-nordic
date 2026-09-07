@@ -10,7 +10,7 @@
 
 ## Flavors
 
-### Default
+### Base
 |      Light         |         Dark       |
 |---------------------|---------------------|
 | ![](assets/flavors/flavor-default-light.png) | ![](assets/flavors/flavor-default.png) |
@@ -22,11 +22,8 @@
 | ![](assets/flavors/flavor-uniform-light.png) | ![](assets/flavors/flavor-uniform.png) |
 
 
-
-
 ## Plugins
 > This is a list of all the plugins the theme currently explicitly supports
-
 - [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks)
 
 

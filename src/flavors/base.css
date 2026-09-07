@@ -63,7 +63,8 @@
     --nord-color-base-35: color-mix(in srgb, var(--nord3), #000 var(--nordic-darken));
     --nord-color-base-40: color-mix(in srgb, var(--nord3), #000 var(--nordic-darken));
 
-    // we dont darken the ligher colors cause it looks bad obvs
+     /*we dont darken the ligher colors cause it looks bad obvs*/
+    
     --nord-color-base-50: var(--nord4);
     --nord-color-base-60: var(--nord4);
     --nord-color-base-70: var(--nord5);

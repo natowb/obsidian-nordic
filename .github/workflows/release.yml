@@ -1,40 +1,40 @@
 name: Release
 
 on:
-  push:
-    branches:
-        - "main"
-
+  workflow_dispatch:
 
 jobs:
-    release:
-        runs-on: ubuntu-latest
-        permissions:
-          contents: write
-          issues: write
-          pull-requests: write
-        steps:
-            - name: checkout repo
-              uses: actions/checkout@v4
-              with:  
-                token: ${{ secrets.GITHUB_TOKEN }}
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
 
-            - uses: actions/setup-node@v3
-              with:
-                node-version: 24
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-            - uses: pnpm/action-setup@v3
-              with:
-                version: 8
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
 
-            - name: install deps
-              run: pnpm install
-      
-            - name: build
-              run: | 
-                pnpm run build
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
 
-            - name: gen release
-              run: pnpm exec semantic-release
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Generate release
+        run: pnpm exec semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
