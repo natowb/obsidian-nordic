@@ -1,4 +1,4 @@
-import { render } from 'node-sass';
+import { render } from 'sass';
 import { writeFile, copyFile } from 'fs';
 import path from "path";
 
@@ -7,7 +7,7 @@ const outputFile = './theme.css';
 render({
     file: inputFile,
     outFile: outputFile,
-    outputStyle: "compact"
+    outputStyle: "expanded"
 }, (error, result) => {
     if (error) {
         console.error('Error compiling SCSS:', error);
