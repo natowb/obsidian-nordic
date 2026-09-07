@@ -1,34 +1,14 @@
 .theme-dark {
-	--table-header-font: var(--header-font);
-	--table-border-width: 1px;
-	--table-column-alt-background: transparent;
-	--table-header-border-color: rgba(var(--mono-rgb-0), 50%);
-	--table-border-color: rgba(var(--mono-rgb-0), 50%);
-
-
-	--table-header-background: rgba(var(--mono-rgb-0), 25%);
-	--table-background: rgba(var(--mono-rgb-100), 5%);
-	--table-row-alt-background: rgba(var(--mono-rgb-0), 5%);
-
-	--table-header-background-hover: rgba(var(--mono-rgb-100), 10%);
-	--table-row-background-hover: rgba(var(--mono-rgb-100), 10%);
-	--table-row-alt-background-hover: rgba(var(--mono-rgb-100), 10%);
+  --table-header-font: var(--header-font);
+  --code-border-width: 1px;
+  --table-row-alt-background: var(--background-primary-alt);
+  --table-row-alt-background-hover: var(--background-primary-alt);
 }
 
 .theme-light {
-	--table-header-font: var(--header-font);
-	--table-border-width: 1px;
-	--table-column-alt-background: transparent;
-	--table-header-border-color: rgba(var(--mono-rgb-100), 50%);
-	--table-border-color: rgba(var(--mono-rgb-100), 50%);
-
-
-	--table-header-background: rgba(var(--mono-rgb-100), 25%);
-	--table-background: rgba(var(--mono-rgb-0), 5%);
-	--table-row-alt-background: rgba(var(--mono-rgb-100), 5%);
-
-	--table-header-background-hover: rgba(var(--mono-rgb-0), 10%);
-	--table-row-background-hover: rgba(var(--mono-rgb-0), 10%);
-	--table-row-alt-background-hover: rgba(var(--mono-rgb-0), 10%);
+  --table-header-font: var(--header-font);
+  --code-border-width: 1px;
+  --table-row-alt-background: var(--background-primary-alt);
+  --table-row-alt-background-hover: var(--background-primary-alt);
 }
 

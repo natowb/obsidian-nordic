@@ -1,68 +1,67 @@
-@function toRGB($color) {
-	@return unquote("#{red($color)}, #{green($color)}, #{blue($color)}");
+.theme-dark,
+.theme-light,
+.is-mobile.theme-dark,
+.is-mobile.theme-light {
+
+  --nord0: #2E3440;
+  --nord1: #3B4252;
+  --nord2: #434C5E;
+  --nord3: #4C566A;
+  --nord4: #D8DEE9;
+  --nord5: #E5E9F0;
+  --nord6: #ECEFF4;
+  --nord7: #8FBCBB;
+  --nord8: #88C0D0;
+  --nord9: #81A1C1;
+  --nord10: #5E81AC;
+  --nord11: #BF616A;
+  --nord12: #D08770;
+  --nord13: #EBCB8B;
+  --nord14: #A3BE8C;
+  --nord15: #B48EAD;
+
+  --color-red-rgb: 191, 97, 106;
+  --color-orange-rgb: 208, 135, 112;
+  --color-yellow-rgb: 235, 203, 139;
+  --color-green-rgb: 163, 190, 140;
+  --color-cyan-rgb: 97, 177, 191;
+  --color-blue-rgb: 97, 153, 191;
+  --color-purple-rgb: 149, 142, 180;
+  --color-pink-rgb: 180, 142, 173;
+
+  --color-red: rgb(var(--color-red-rgb));
+  --color-orange: rgb(var(--color-orange-rgb));
+  --color-yellow: rgb(var(--color-yellow-rgb));
+  --color-green: rgb(var(--color-green-rgb));
+  --color-cyan: rgb(var(--color-cyan-rgb));
+  --color-blue: rgb(var(--color-blue-rgb));
+  --color-purple: rgb(var(--color-purple-rgb));
+  --color-pink: rgb(var(--color-pink-rgb));
+
+  --accent-h: 210;
+  --accent-s: 34%;
+  --accent-l: 63%;
+
+  /* flavors are expected to set these variables for themselves*/
+  --color-base-00: var(--nord-color-base-00);
+  --color-base-05: var(--nord-color-base-05);
+  --color-base-10: var(--nord-color-base-10);
+  --color-base-20: var(--nord-color-base-20);
+  --color-base-25: var(--nord-color-base-25);
+  --color-base-30: var(--nord-color-base-30);
+  --color-base-35: var(--nord-color-base-35);
+  --color-base-40: var(--nord-color-base-40);
+  --color-base-50: var(--nord-color-base-50);
+  --color-base-60: var(--nord-color-base-60);
+  --color-base-70: var(--nord-color-base-70);
+  --color-base-100: var(--nord-color-base-100);
 }
 
-@mixin includeVariables($variable, $color) {
-	--#{$variable}-raw: #{toRGB($color)};
-	--#{$variable}: #{$color};
+.theme-dark.nordic-colored-headers, .theme-light.nordic-colored-headers {
+    --h1-color: var(--color-red);
+    --h2-color: var(--color-orange);
+    --h3-color: var(--color-yellow);
+    --h4-color: var(--color-green);
+    --h5-color: var(--color-cyan);
+    --h6-color: var(--color-blue);
 }
-
-$colors: (
-	"dark0": #2e3440,
-	"dark1": #3b4252,
-	"dark2": #434c5e,
-	"dark3": #4c566a,
-	"light0": #d8dee9,
-	"light1": #e5e9f0,
-	"light2": #eceff4,
-	"light3": #ffffff,
-	"frost0": #8fbcbb,
-	"frost1": #88c0d0,
-	"frost2": #81a1c1,
-	"frost3": #5e81ac,
-);
-
-
-
-@function nord($name) {
-	@return map-get($colors, "#{$name}");
-}
-
-:root {
-	@each $name, $color in $colors {
-		@include includeVariables("#{$name}", $color);
-	}
-}
-
-
-
-
-
-
-.theme-dark, .theme-light {
-	--accent-h: 210;
-	--accent-s: 34%;
-	--accent-l: 63%;
-
-	$purple: #b48ead;
-	$yellow: #ebcb8b;
-	$green: #a3be8c;
-	$orange: #d08770;
-	$red: #bf616a;
-	$blue: #6199bf;
-  
-	--color-red: #{$red};
-	--color-red-rgb: #{toRGB($red)};
-	--color-orange: #{$orange};
-	--color-orange-rgb: #{toRGB($orange)};
-	--color-yellow: #{$yellow};
-	--color-yellow-rgb: #{toRGB($yellow)};
-	--color-green: #{$green};
-	--color-green-rgb: #{toRGB($green)};
-	--color-purple: #{$purple};
-	--color-purple-rgb: #{toRGB($purple)};
-	--color-blue: #{$blue};
-	--color-blue-rgb: #{toRGB($blue)};
-}
-
-
