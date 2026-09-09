@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/natowb/obsidian-nordic/compare/1.4.1...1.5.0) (2026-09-09)
+
+
+### Bug Fixes
+
+* undo workflow change ([4c50098](https://github.com/natowb/obsidian-nordic/commit/4c5009883cde00038f6ece0b41620d6c9c29368e))
+
+
+### Features
+
+* remove nord package dep; remove use of  scss features ([9c672cb](https://github.com/natowb/obsidian-nordic/commit/9c672cbb1e5e8f22b2f6a41f3b9a75f741328cb5))
+* update callouts; update tab outline ([e78d267](https://github.com/natowb/obsidian-nordic/commit/e78d267d8c1a4ac24cb1d0770936b8e5fba5a86d))
+
 ## [1.4.1](https://github.com/natobtw/obsidian-nordic/compare/1.4.0...1.4.1) (2026-08-01)
 
 
