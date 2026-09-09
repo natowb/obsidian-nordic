@@ -5,7 +5,6 @@ on:
     branches:
         - "main"
 
-
 jobs:
     release:
         runs-on: ubuntu-latest
@@ -31,7 +30,7 @@ jobs:
               run: pnpm install
       
             - name: build
-              run: | 
+              run:
                 pnpm run build
 
             - name: gen release

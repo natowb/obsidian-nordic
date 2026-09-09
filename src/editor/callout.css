@@ -4,22 +4,36 @@
   --callout-title-padding: 6px 10px;
   --callout-title-background: var(--callout-color);
   --callout-border-opacity: .5;
-  --callout-radius: 0;
-  border: 1px solid color-mix(in srgb, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);
+
+  background-color: transparent;
 
 }
 
+.callout:not(.is-collapsed) {
+  border: 1px solid color-mix(in srgb, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);
+}
+
+.callout.is-collapsed {
+  border-top: 1px solid color-mix(in srgb, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);
+  border-left: 1px solid color-mix(in srgb, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);
+  border-right: 1px solid color-mix(in srgb, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);
+
+}
+
+
+
+
 .callout-title {
-  background-color: rgba(var(--callout-title-background, var(--callout-color)), 0.2);
+  background-color: color-mix(in oklch, var(--callout-color) 20%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);;
   font-family: "Norwester";
 }
 
 .callout-content {
+    background-color: color-mix(in oklch, var(--callout-color) 5%, transparent);
   --bold-color: var(--callout-color);
   --list-marker-color: var(--callout-color);
 }
-
-
 
 
 .theme-dark:not(.nordic-colored-headers),

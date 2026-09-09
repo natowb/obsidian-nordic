@@ -1,0 +1,29 @@
+.theme-dark.nordic-uniform {
+    --nord-color-base-00: color-mix(in srgb, var(--nord0), #000 var(--nordic-darken));
+    --nord-color-base-05: color-mix(in srgb, var(--nord0), #000 var(--nordic-darken));
+    --nord-color-base-10: color-mix(in srgb, var(--nord1), #000 var(--nordic-darken));
+    --nord-color-base-20: color-mix(in srgb, var(--nord0), #000 var(--nordic-darken));
+    --nord-color-base-25: color-mix(in srgb, var(--nord0), #000 var(--nordic-darken));
+    --nord-color-base-30: color-mix(in srgb, var(--nord2), #000 var(--nordic-darken));
+    --nord-color-base-35: color-mix(in srgb, var(--nord3), #000 var(--nordic-darken));
+    --nord-color-base-40: color-mix(in srgb, var(--nord3), #000 var(--nordic-darken));
+    --nord-color-base-50: var(--nord4);
+    --nord-color-base-60: var(--nord4);
+    --nord-color-base-70: var(--nord5);
+    --nord-color-base-100: var(--nord6);
+}
+
+.theme-light.nordic-uniform {
+    --nord-color-base-00: white;
+    --nord-color-base-05: white;
+    --nord-color-base-10: var(--nord6);
+    --nord-color-base-20: white;
+    --nord-color-base-25: white;
+    --nord-color-base-30: var(--nord4);
+    --nord-color-base-35: var(--nord4);
+    --nord-color-base-40: var(--nord4);
+    --nord-color-base-50: var(--nord3);
+    --nord-color-base-60: var(--nord2);
+    --nord-color-base-70: var(--nord1);
+    --nord-color-base-100: var(--nord0);
+}

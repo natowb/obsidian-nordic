@@ -1,0 +1,87 @@
+
+:root {
+    --nordic-darken: 0%;
+
+}
+
+
+.theme-dark,
+.theme-light,
+.theme-dark.nordic-base,
+.theme-light.nordic-base,
+.is-mobile.theme-dark,
+.is-mobile.theme-light {
+    --text-highlight-bg: var(--color-accent);
+    --list-marker-color: var(--color-accent);
+    
+    --inline-title-color: var(--color-accent);
+    --inline-title-font: var(--header-font);
+
+    --tab-outline-color: var(--nord-color-base-30);
+    --tab-text-color-focused-active-current: var(--color-accent-2);
+
+    --header-font: "Norwester";
+    
+    --h2-color: var(--color-accent);
+    --h3-color: var(--color-accent);
+    --h4-color: var(--color-accent);
+    --h5-color: var(--color-accent);
+    --h1-color: var(--color-accent);
+    --h6-color: var(--color-accent);
+
+    .markdown-source-view:not(.is-live-preview) {
+        --h1-size: var(--font-text);
+        --h2-size: var(--font-text);
+        --h3-size: var(--font-text);
+        --h4-size: var(--font-text);
+        --h5-size: var(--font-text);
+        --h6-size: var(--font-text);
+    }
+
+    .markdown-rendered,
+    .markdown-source-view:is(.is-live-preview) {
+        --h1-font: var(--header-font);
+        --h2-font: var(--header-font);
+        --h3-font: var(--header-font);
+        --h4-font: var(--header-font);
+        --h5-font: var(--header-font);
+        --h6-font: var(--header-font);
+    }
+}
+
+.theme-dark,
+.is-mobile.theme-dark,
+.theme-dark.nordic-base {
+    --nord-color-base-00: color-mix(in srgb, var(--nord0), #000 var(--nordic-darken));
+    --nord-color-base-05: color-mix(in srgb, var(--nord0), #000 var(--nordic-darken));
+    --nord-color-base-10: color-mix(in srgb, var(--nord1), #000 var(--nordic-darken));
+    --nord-color-base-20: color-mix(in srgb, var(--nord1), #000 var(--nordic-darken));
+    --nord-color-base-25: color-mix(in srgb, var(--nord2), #000 var(--nordic-darken));
+    --nord-color-base-30: color-mix(in srgb, var(--nord2), #000 var(--nordic-darken));
+    --nord-color-base-35: color-mix(in srgb, var(--nord3), #000 var(--nordic-darken));
+    --nord-color-base-40: color-mix(in srgb, var(--nord3), #000 var(--nordic-darken));
+
+     /*we dont darken the ligher colors cause it looks bad obvs*/
+    
+    --nord-color-base-50: var(--nord4);
+    --nord-color-base-60: var(--nord4);
+    --nord-color-base-70: var(--nord5);
+    --nord-color-base-100: var(--nord4);
+}
+
+.theme-light,
+.is-mobile.theme-light,
+.theme-light.nordic-base {
+--nord-color-base-00:  #f5f5f5;
+--nord-color-base-05:  #f5f5f5;
+--nord-color-base-10: var(--nord5);
+--nord-color-base-20: var(--nord5);
+--nord-color-base-25: var(--nord5);
+--nord-color-base-30: var(--nord5);
+--nord-color-base-35: var(--nord4);
+--nord-color-base-40: var(--nord4);
+--nord-color-base-50: var(--nord3);
+--nord-color-base-60: var(--nord2);
+--nord-color-base-70: var(--nord1);
+--nord-color-base-100: var(--nord0);
+}
