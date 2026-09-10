@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/natowb/obsidian-nordic/compare/1.5.0...1.5.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* fix colored headers not displaying ([ac3a60a](https://github.com/natowb/obsidian-nordic/commit/ac3a60af7a1101cc96886784f5c5aa2843e87732))
+
 # [1.5.0](https://github.com/natowb/obsidian-nordic/compare/1.4.1...1.5.0) (2026-09-09)
 
 
