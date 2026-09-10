@@ -17,18 +17,11 @@
     --inline-title-color: var(--color-accent);
     --inline-title-font: var(--header-font);
 
-    --tab-outline-color: var(--nord-color-base-30);
+    --tab-outline-color: var(--color-accent);
     --tab-text-color-focused-active-current: var(--color-accent-2);
 
     --header-font: "Norwester";
     
-    --h2-color: var(--color-accent);
-    --h3-color: var(--color-accent);
-    --h4-color: var(--color-accent);
-    --h5-color: var(--color-accent);
-    --h1-color: var(--color-accent);
-    --h6-color: var(--color-accent);
-
     .markdown-source-view:not(.is-live-preview) {
         --h1-size: var(--font-text);
         --h2-size: var(--font-text);
